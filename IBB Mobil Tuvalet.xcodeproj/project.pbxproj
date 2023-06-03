@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60838C222A2A4F1E00B5A7EF /* IBB_Mobil_TuvaletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60838C212A2A4F1E00B5A7EF /* IBB_Mobil_TuvaletApp.swift */; };
+		60838C242A2A4F1E00B5A7EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60838C232A2A4F1E00B5A7EF /* ContentView.swift */; };
+		60838C292A2A4F1F00B5A7EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60838C282A2A4F1F00B5A7EF /* Preview Assets.xcassets */; };
+		60838C352A2A519A00B5A7EF /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60838C342A2A519A00B5A7EF /* Locations.swift */; };
+		60838C3A2A2A54CC00B5A7EF /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60838C392A2A54CC00B5A7EF /* LocationsDataService.swift */; };
+		60838C3C2A2A57D600B5A7EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60838C3B2A2A57D600B5A7EF /* Assets.xcassets */; };
+		60838C3E2A2A5E3E00B5A7EF /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60838C3D2A2A5E3E00B5A7EF /* LocationsView.swift */; };
+		60838C402A2A631900B5A7EF /* LocationsViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60838C3F2A2A631900B5A7EF /* LocationsViewModels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60838C1E2A2A4F1E00B5A7EF /* IBB Mobil Tuvalet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBB Mobil Tuvalet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60838C212A2A4F1E00B5A7EF /* IBB_Mobil_TuvaletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBB_Mobil_TuvaletApp.swift; sourceTree = "<group>"; };
+		60838C232A2A4F1E00B5A7EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60838C282A2A4F1F00B5A7EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60838C342A2A519A00B5A7EF /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		60838C392A2A54CC00B5A7EF /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		60838C3B2A2A57D600B5A7EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60838C3D2A2A5E3E00B5A7EF /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		60838C3F2A2A631900B5A7EF /* LocationsViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModels.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60838C1B2A2A4F1E00B5A7EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60838C152A2A4F1E00B5A7EF = {
+			isa = PBXGroup;
+			children = (
+				60838C202A2A4F1E00B5A7EF /* IBB Mobil Tuvalet */,
+				60838C1F2A2A4F1E00B5A7EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60838C1F2A2A4F1E00B5A7EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60838C1E2A2A4F1E00B5A7EF /* IBB Mobil Tuvalet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60838C202A2A4F1E00B5A7EF /* IBB Mobil Tuvalet */ = {
+			isa = PBXGroup;
+			children = (
+				60838C362A2A543700B5A7EF /* DataServices */,
+				60838C332A2A514C00B5A7EF /* Views */,
+				60838C312A2A510700B5A7EF /* ViewModel */,
+				60838C302A2A50F800B5A7EF /* Locations */,
+				60838C2F2A2A50E700B5A7EF /* Models */,
+				60838C212A2A4F1E00B5A7EF /* IBB_Mobil_TuvaletApp.swift */,
+				60838C232A2A4F1E00B5A7EF /* ContentView.swift */,
+				60838C3B2A2A57D600B5A7EF /* Assets.xcassets */,
+				60838C272A2A4F1F00B5A7EF /* Preview Content */,
+			);
+			path = "IBB Mobil Tuvalet";
+			sourceTree = "<group>";
+		};
+		60838C272A2A4F1F00B5A7EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				60838C282A2A4F1F00B5A7EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		60838C2F2A2A50E700B5A7EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				60838C342A2A519A00B5A7EF /* Locations.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		60838C302A2A50F800B5A7EF /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Locations;
+			sourceTree = "<group>";
+		};
+		60838C312A2A510700B5A7EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				60838C3F2A2A631900B5A7EF /* LocationsViewModels.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		60838C332A2A514C00B5A7EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				60838C3D2A2A5E3E00B5A7EF /* LocationsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		60838C362A2A543700B5A7EF /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				60838C392A2A54CC00B5A7EF /* LocationsDataService.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60838C1D2A2A4F1E00B5A7EF /* IBB Mobil Tuvalet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60838C2C2A2A4F1F00B5A7EF /* Build configuration list for PBXNativeTarget "IBB Mobil Tuvalet" */;
+			buildPhases = (
+				60838C1A2A2A4F1E00B5A7EF /* Sources */,
+				60838C1B2A2A4F1E00B5A7EF /* Frameworks */,
+				60838C1C2A2A4F1E00B5A7EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IBB Mobil Tuvalet";
+			productName = "IBB Mobil Tuvalet";
+			productReference = 60838C1E2A2A4F1E00B5A7EF /* IBB Mobil Tuvalet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60838C162A2A4F1E00B5A7EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					60838C1D2A2A4F1E00B5A7EF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 60838C192A2A4F1E00B5A7EF /* Build configuration list for PBXProject "IBB Mobil Tuvalet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60838C152A2A4F1E00B5A7EF;
+			productRefGroup = 60838C1F2A2A4F1E00B5A7EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60838C1D2A2A4F1E00B5A7EF /* IBB Mobil Tuvalet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60838C1C2A2A4F1E00B5A7EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60838C3C2A2A57D600B5A7EF /* Assets.xcassets in Resources */,
+				60838C292A2A4F1F00B5A7EF /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60838C1A2A2A4F1E00B5A7EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60838C3A2A2A54CC00B5A7EF /* LocationsDataService.swift in Sources */,
+				60838C352A2A519A00B5A7EF /* Locations.swift in Sources */,
+				60838C3E2A2A5E3E00B5A7EF /* LocationsView.swift in Sources */,
+				60838C402A2A631900B5A7EF /* LocationsViewModels.swift in Sources */,
+				60838C242A2A4F1E00B5A7EF /* ContentView.swift in Sources */,
+				60838C222A2A4F1E00B5A7EF /* IBB_Mobil_TuvaletApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		60838C2A2A2A4F1F00B5A7EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60838C2B2A2A4F1F00B5A7EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60838C2D2A2A4F1F00B5A7EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IBB Mobil Tuvalet/Preview Content\"";
+				DEVELOPMENT_TEAM = LKU9ZN4MN9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.semihkesgin.IBB-Mobil-Tuvalet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60838C2E2A2A4F1F00B5A7EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IBB Mobil Tuvalet/Preview Content\"";
+				DEVELOPMENT_TEAM = LKU9ZN4MN9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.semihkesgin.IBB-Mobil-Tuvalet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60838C192A2A4F1E00B5A7EF /* Build configuration list for PBXProject "IBB Mobil Tuvalet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60838C2A2A2A4F1F00B5A7EF /* Debug */,
+				60838C2B2A2A4F1F00B5A7EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60838C2C2A2A4F1F00B5A7EF /* Build configuration list for PBXNativeTarget "IBB Mobil Tuvalet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60838C2D2A2A4F1F00B5A7EF /* Debug */,
+				60838C2E2A2A4F1F00B5A7EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60838C162A2A4F1E00B5A7EF /* Project object */;
+}
