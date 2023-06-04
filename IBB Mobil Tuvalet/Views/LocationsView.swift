@@ -12,15 +12,15 @@ import MapKit
 struct LocationsView: View {
     
     @StateObject private var vm = LocationViewModels()
-    
-    
+   
     var body: some View {
         ZStack{
-            Map
+            Map(coordinateRegion: $vm.mapRegion)
+                .ignoresSafeArea()
             }
         }
     }
-}
+
 
 struct LocationsView_Previews: PreviewProvider {
     static var previews: some View {
