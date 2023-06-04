@@ -15,6 +15,7 @@
 		60838C3C2A2A57D600B5A7EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60838C3B2A2A57D600B5A7EF /* Assets.xcassets */; };
 		60838C3E2A2A5E3E00B5A7EF /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60838C3D2A2A5E3E00B5A7EF /* LocationsView.swift */; };
 		60838C402A2A631900B5A7EF /* LocationsViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60838C3F2A2A631900B5A7EF /* LocationsViewModels.swift */; };
+		60ABE25F2A2D1F31007EE3A0 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ABE25E2A2D1F31007EE3A0 /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		60838C3B2A2A57D600B5A7EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60838C3D2A2A5E3E00B5A7EF /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		60838C3F2A2A631900B5A7EF /* LocationsViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModels.swift; sourceTree = "<group>"; };
+		60ABE25E2A2D1F31007EE3A0 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				60838C3D2A2A5E3E00B5A7EF /* LocationsView.swift */,
+				60ABE25E2A2D1F31007EE3A0 /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60838C3A2A2A54CC00B5A7EF /* LocationsDataService.swift in Sources */,
+				60ABE25F2A2D1F31007EE3A0 /* LocationsListView.swift in Sources */,
 				60838C352A2A519A00B5A7EF /* Locations.swift in Sources */,
 				60838C3E2A2A5E3E00B5A7EF /* LocationsView.swift in Sources */,
 				60838C402A2A631900B5A7EF /* LocationsViewModels.swift in Sources */,
