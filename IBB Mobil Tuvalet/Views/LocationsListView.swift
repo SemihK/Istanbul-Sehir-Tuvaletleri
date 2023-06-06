@@ -10,16 +10,11 @@ import SwiftUI
 struct LocationsListView: View {
     @EnvironmentObject private var vm: LocationViewModels
     
+    // List view tıklanabilir değil. düzeltilmesi gerekiyor.
     var body: some View {
-        List {
-            ForEach(vm.locations){ Location in
-                Button{
-                    vm.showNextLocation(location: Location)
-                } label: {
-                    listRowView(location: Location)
-                }
-                    .padding(.vertical , 2)
-                    .listRowBackground(Color.clear)
+        List{
+            ForEach(vm.locations) { location in
+                listRowView(location: location)
                 
             }
         }

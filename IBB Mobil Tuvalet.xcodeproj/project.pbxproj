@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		601406E22A2F755100A0DAB0 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601406E12A2F755100A0DAB0 /* LocationPreviewView.swift */; };
+		601406E42A2F8D4500A0DAB0 /* TestJSONFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601406E32A2F8D4500A0DAB0 /* TestJSONFile.swift */; };
 		60838C222A2A4F1E00B5A7EF /* IBB_Mobil_TuvaletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60838C212A2A4F1E00B5A7EF /* IBB_Mobil_TuvaletApp.swift */; };
 		60838C242A2A4F1E00B5A7EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60838C232A2A4F1E00B5A7EF /* ContentView.swift */; };
 		60838C292A2A4F1F00B5A7EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60838C282A2A4F1F00B5A7EF /* Preview Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		601406E12A2F755100A0DAB0 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		601406E32A2F8D4500A0DAB0 /* TestJSONFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestJSONFile.swift; sourceTree = "<group>"; };
 		60838C1E2A2A4F1E00B5A7EF /* IBB Mobil Tuvalet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBB Mobil Tuvalet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60838C212A2A4F1E00B5A7EF /* IBB_Mobil_TuvaletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBB_Mobil_TuvaletApp.swift; sourceTree = "<group>"; };
 		60838C232A2A4F1E00B5A7EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +114,7 @@
 			children = (
 				60838C3D2A2A5E3E00B5A7EF /* LocationsView.swift */,
 				60ABE25E2A2D1F31007EE3A0 /* LocationsListView.swift */,
+				601406E12A2F755100A0DAB0 /* LocationPreviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				60838C392A2A54CC00B5A7EF /* LocationsDataService.swift */,
+				601406E32A2F8D4500A0DAB0 /* TestJSONFile.swift */,
 			);
 			path = DataServices;
 			sourceTree = "<group>";
@@ -195,11 +201,13 @@
 			files = (
 				60838C3A2A2A54CC00B5A7EF /* LocationsDataService.swift in Sources */,
 				60ABE25F2A2D1F31007EE3A0 /* LocationsListView.swift in Sources */,
+				601406E22A2F755100A0DAB0 /* LocationPreviewView.swift in Sources */,
 				60838C352A2A519A00B5A7EF /* Locations.swift in Sources */,
 				60838C3E2A2A5E3E00B5A7EF /* LocationsView.swift in Sources */,
 				60838C402A2A631900B5A7EF /* LocationsViewModels.swift in Sources */,
 				60838C242A2A4F1E00B5A7EF /* ContentView.swift in Sources */,
 				60838C222A2A4F1E00B5A7EF /* IBB_Mobil_TuvaletApp.swift in Sources */,
+				601406E42A2F8D4500A0DAB0 /* TestJSONFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

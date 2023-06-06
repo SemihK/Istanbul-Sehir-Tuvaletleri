@@ -21,7 +21,18 @@ struct LocationsView: View {
             VStack(spacing: 0){
                 header
                 .padding()
+                
             Spacer()
+                ZStack {
+                    ForEach(vm.locations){ Location in
+                        if vm.mapLocation == Location{
+                            LocationPreviewView(location: Location)
+                                .padding()
+                                .shadow(color: .black.opacity(0.3), radius: 20)
+                        }
+                        
+                    }
+                  }
                 }
             }
         }
@@ -40,7 +51,7 @@ extension LocationsView {
             Button {
                 vm.toggleLocationList()
             } label: {
-                Text(vm.mapLocation.name)
+                Text(vm.mapLocation.title)
                     .font(.title2)
                         .fontWeight(.black)
                         .foregroundColor(.primary)
@@ -53,12 +64,10 @@ extension LocationsView {
                             .foregroundColor(.primary)
                             .padding()
                             .rotationEffect(Angle(degrees: vm.showLocationList ? 180:0))
-                        
             }
-
+                if vm.showLocationList{
+                    LocationsListView()
             }
-            if vm.showLocationList{
-                LocationsListView()
             }
            
         }
