@@ -3,7 +3,7 @@
 //  IBB Mobil Tuvalet
 //
 //  Created by Semih Kesgin on 2.06.2023.
-//
+
 
 import SwiftUI
 import MapKit
@@ -48,26 +48,24 @@ struct LocationsView_Previews: PreviewProvider {
 extension LocationsView {
     private var header: some View{
         VStack {
-            Button {
-                vm.toggleLocationList()
-            } label: {
+            Button(action: vm.toggleLocationList) {
                 Text(vm.mapLocation.title)
                     .font(.title2)
-                        .fontWeight(.black)
-                        .foregroundColor(.primary)
-                        .frame(height: 55)
+                    .fontWeight(.black)
+                    .foregroundColor(.primary)
+                    .frame(height: 55)
                     .frame(maxWidth: .infinity)
-                    .background(Color.white)
+                    .animation(.none, value: vm.mapLocation)
                     .overlay(alignment: .leading) {
                         Image(systemName: "arrow.down")
                             .font(.headline)
                             .foregroundColor(.primary)
                             .padding()
-                            .rotationEffect(Angle(degrees: vm.showLocationList ? 180:0))
+                            .rotationEffect(Angle(degrees: vm.showLocationList ? 180 : 0))
             }
-                if vm.showLocationList{
-                    LocationsListView()
-            }
+            } // sakın değiştirme ! 
+            if vm.showLocationList{
+                LocationsListView()
             }
            
         }

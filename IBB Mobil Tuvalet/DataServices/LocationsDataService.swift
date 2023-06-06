@@ -37,6 +37,17 @@ class LocationsDataService {
                  description: "Sakızağacı, Kennedy Cad., 34142 Bakırköy/İstanbul",
                  imageNames: ["bakırköy"],
                  link: "https://ibb.gov.tr"),
+        // test lokasyonu
+        Location(title: "Sarıyer",
+                 name: "Sarıyer Şehir Tuvaleti",
+                 cityName: "İstanbul",
+                 coordinates: CLLocationCoordinate2D(latitude:  40.97935392239168, longitude: 28.888140215271672),
+                 description: "Sarıyer/İstanbul",
+                 imageNames: ["yenibosna-1"],
+                 link: "https://ibb.gov.tr"),
+        
+       
+        
       
     ]
     
