@@ -17,8 +17,12 @@ struct Location: Identifiable{
     let imageNames : [String]
     let link : String
     
+    // Identifiable section
     var id: String{
-        name+cityName
+        // name = "Yenibosna"
+        // cityName = "Istanbul"
+        // id = "YenibosnaIstanbul"
+        name + cityName
         
     }
 }

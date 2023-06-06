@@ -10,12 +10,13 @@ import MapKit
 
 class LocationsDataService {
     //  default Istanbul coordinate: 41.014217508317614, 28.97550922394332
+    //  default Yenibosna coodinate: 40.99051790585374, 28.838160545475734
     
     static let locations: [Location] = [
         Location(
             name: "Yenibosna",
             cityName: "Istanbul",
-            coordinates: CLLocationCoordinate2D(latitude: 41.014, longitude: 28.975),
+            coordinates: CLLocationCoordinate2D(latitude: 40.990, longitude:  28.838),
             description: "The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world today, despite its age.",
             imageNames: [
                 "rome-colosseum-1",

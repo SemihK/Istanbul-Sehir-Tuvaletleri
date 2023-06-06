@@ -20,6 +20,9 @@ class LocationViewModels: ObservableObject {
     @Published var mapRegion: MKCoordinateRegion = MKCoordinateRegion()
     let mapSpan = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
     
+    // Show list of location option section
+    @Published var showLocationList: Bool = false
+    
     
     init() {
         let locations =  LocationsDataService.locations
@@ -30,6 +33,19 @@ class LocationViewModels: ObservableObject {
     private func updateMapRegion(location: Location) {
         withAnimation(.easeInOut){
             mapRegion = MKCoordinateRegion(center: location.coordinates, span: mapSpan)
+        }
+    }
+    
+     func toggleLocationList(){
+        withAnimation(.easeInOut){
+            showLocationList.toggle()
+        }
+    }
+    
+    func showNextLocation(location : Location){
+        withAnimation(.easeInOut){
+            mapLocation = location
+            showLocationList = false
         }
     }
     

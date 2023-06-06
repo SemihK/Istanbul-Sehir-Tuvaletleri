@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "thumbnail.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },

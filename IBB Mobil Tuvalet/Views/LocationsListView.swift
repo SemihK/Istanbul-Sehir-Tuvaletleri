@@ -13,7 +13,13 @@ struct LocationsListView: View {
     var body: some View {
         List {
             ForEach(vm.locations){ Location in
-                listRowView(location: Location)
+                Button{
+                    vm.showNextLocation(location: Location)
+                } label: {
+                    listRowView(location: Location)
+                }
+                    .padding(.vertical , 2)
+                    .listRowBackground(Color.clear)
                 
             }
         }
