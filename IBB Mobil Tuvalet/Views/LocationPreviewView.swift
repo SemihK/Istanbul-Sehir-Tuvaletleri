@@ -9,6 +9,8 @@ import SwiftUI
 
 struct LocationPreviewView: View {
     
+    @EnvironmentObject private var vm: LocationViewModels
+    
     let location: Location
     
     var body: some View {
@@ -38,10 +40,11 @@ struct LocationPreviewView_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             Color.green.ignoresSafeArea()
-            
+
             LocationPreviewView(location: LocationsDataService.locations.first!)
                 .padding()
         }
+        .environmentObject(LocationViewModels())
     }
     
 }
@@ -94,7 +97,7 @@ extension LocationPreviewView {
     
     private var nextButton : some View {
         Button {
-            
+            vm.nextButtonPressed()
         } label: {
          Text("Sıradaki")
                 .font(.headline)
