@@ -20,4 +20,10 @@
 |--|--|
 | ![Detail Page](https://github.com/SemihK/maps-for-wc/blob/main/images/screenshot/detail%20view.png?raw=true) | ![Detail map view](https://github.com/SemihK/maps-for-wc/blob/main/images/screenshot/detail%20page.png?raw=true) |
 
+> Thanks to Swiftfull Thinking for this informative course content. I think I've improved myself a lot with this example.
 
+### Support Me
+
+<a href="https://www.buymeacoffee.com/semihkesgin"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
+or
+Github Sponsor ❤️
