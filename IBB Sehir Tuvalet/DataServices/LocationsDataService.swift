@@ -43,11 +43,11 @@ class LocationsDataService {
                          link: "https://ibb.gov.tr"),
                 // test lokasyonu
                 Location(
-                         name: "Sarıyer Şehir Tuvaleti",
+                         name: "Test Şehir Tuvaleti",
                          status: "08:00 - 20:00",
                          coordinates: CLLocationCoordinate2D(latitude:  40.97935392239168, longitude: 28.888140215271672),
                          description: "Sarıyer/İstanbul",
-                         imageNames: ["yenibosna-1"],
+                         imageNames: ["no-image"],
                          cost: "1",
                          link: "https://ibb.gov.tr"),
         Location(
@@ -101,6 +101,34 @@ class LocationsDataService {
                  coordinates: CLLocationCoordinate2D(latitude:41.01574616785,  longitude: 28.976587527300193),
                  description: "Hoca Paşa, Ankara Cd., 34110 Fatih/İstanbul",
                  imageNames: ["sirkeci"],
+                 cost: "1",
+                 link: "https://ibb.gov.tr"),
+        
+        Location(
+                 name: "Metrokent Metro",
+                 status: "08:00 - 00:00",
+                 coordinates: CLLocationCoordinate2D(latitude:41.10777950616065,  longitude: 28.801243457210106),
+                 description: "Metrokent Metro, 34480 Başakşehir/İstanbul",
+                 imageNames: ["metrokent"],
+                 cost: "1",
+                 link: "https://ibb.gov.tr"),
+        
+        Location(
+                 name: "Başak Konutları Metro",
+                 status: "08:00 - 00:00",
+                 coordinates: CLLocationCoordinate2D(latitude:41.097118069544884,  longitude: 28.790796387565226),
+                 description: "Başak, Hürriyet Bulvari, 34480 Başakşehir/İstanbul",
+                 imageNames: ["basak-konutları"],
+                 cost: "1",
+                 link: "https://ibb.gov.tr"),
+    
+        
+        Location(
+                 name: "Marmaray Yenikapı Şehir Tuvaleti ",
+                 status: "08:00 - 00:00",
+                 coordinates: CLLocationCoordinate2D(latitude:41.00557755971019,  longitude: 28.951545251074144),
+                 description: "Aksaray, Langa Bostanları Sk., 34096 Fatih/İstanbul",
+                 imageNames: ["marmaray-yenikapı"],
                  cost: "1",
                  link: "https://ibb.gov.tr"),
         
