@@ -19,6 +19,8 @@
 |  ![Map View](https://github.com/SemihK/maps-for-wc/blob/main/images/screenshot/screen%20view.png?raw=true)| ![List View](https://github.com/SemihK/maps-for-wc/blob/main/images/screenshot/list%20view.png?raw=true) |
 |--|--|
 | ![Detail Page](https://github.com/SemihK/maps-for-wc/blob/main/images/screenshot/detail%20view.png?raw=true) | ![Detail map view](https://github.com/SemihK/maps-for-wc/blob/main/images/screenshot/detail%20page.png?raw=true) |
+![home screen](https://github.com/SemihK/CTM/blob/main/images/screenshot/Mode=Light.png?raw=true)|  |
+
 
 > Thanks to Swiftfull Thinking for this informative course content. I think I've improved myself a lot with this example.
 
