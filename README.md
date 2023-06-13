@@ -10,7 +10,7 @@
 >
 ![app logo](https://github.com/SemihK/CTM/blob/main/IBB%20Sehir%20Tuvalet/Assets.xcassets/AppIcon.appiconset/114.png?raw=true)
 
-- Logoyu tasarımı yaparken logonun basit ama amacını en etkin şekilde anlatacak bir şekilde tasarlamaya özen gösterdim. Renk seçimi yaparken kullanıcı ekranında rahatsız etmeyecek ama aynı zamanda genel IBB renklerini tercih ettim. 
+- Logonun tasarımını yaparken uygulamanın amacını en etkin şekilde anlatacak yalın bir tasarıma ulaşmaya özen gösterdim. Kullanıcı ekranında görsel karışıklık yaratmadan, aynı zamanda İBB'nin genel renklerini kullanmaya özen göstererek renk seçimini gerçekleştirdim.
 
 
 > That's been one of my mantras - focus and simplicity. Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it's worth it in the end because once you get there, you can move mountain. - Steve Jobs
