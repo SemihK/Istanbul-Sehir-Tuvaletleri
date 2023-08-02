@@ -41,15 +41,6 @@ class LocationsDataService {
                          imageNames: ["bakırköy"],
                          cost: "1",
                          link: "https://ibb.gov.tr"),
-                // test lokasyonu
-                Location(
-                         name: "Test Şehir Tuvaleti",
-                         status: "08:00 - 20:00",
-                         coordinates: CLLocationCoordinate2D(latitude:  40.97935392239168, longitude: 28.888140215271672),
-                         description: "Sarıyer/İstanbul",
-                         imageNames: ["no-image"],
-                         cost: "1",
-                         link: "https://ibb.gov.tr"),
         Location(
                  name: "Kadıköy Yoğurtçu Parkı",
                  status: "08:00 - 20:00",
@@ -60,7 +51,7 @@ class LocationsDataService {
                  link: "https://ibb.gov.tr"),
         
         Location(
-                 name: "Göztepe Parkı Şehir Tuvaleti",
+                 name: "Göztepe Parkı",
                  status: "08:00 - 20:00",
                  coordinates: CLLocationCoordinate2D(latitude:  40.97435174801938,  longitude: 29.06030894148011),
                  description: "Caddebostan, Prof. Dr. Hulusi Behçet Cd., 34728 Kadıköy/İstanbul",
@@ -124,7 +115,7 @@ class LocationsDataService {
     
         
         Location(
-                 name: "Marmaray Yenikapı Şehir Tuvaleti ",
+                 name: "Marmaray Yenikapı ",
                  status: "08:00 - 00:00",
                  coordinates: CLLocationCoordinate2D(latitude:41.00557755971019,  longitude: 28.951545251074144),
                  description: "Aksaray, Langa Bostanları Sk., 34096 Fatih/İstanbul",
