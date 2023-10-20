@@ -48,7 +48,7 @@ extension LocationsListView {
             
             VStack(alignment: .leading) {
                 Text(location.name)
-                    .font(.headline)
+                    .font(.title2)
                 Text(location.status)
                     .font(.subheadline)
             }

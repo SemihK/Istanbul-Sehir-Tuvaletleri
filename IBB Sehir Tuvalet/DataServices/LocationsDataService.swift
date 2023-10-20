@@ -128,7 +128,7 @@ class LocationsDataService {
             status: "08:00 - 00:00",
             coordinates: CLLocationCoordinate2D(latitude: 41.0868398, longitude: 29.0071827),
             description: "4.Levent metro durağı içerisinde yer almaktadır.",
-            imageNames: [],
+            imageNames: ["no-image"],
             cost: "",  // Ücret bilgisi eksik
             link: "https://www.google.com/maps/place/İBB+M2+4.+Levent+Şehir+Tuvaleti/@41.0868398,29.0071827,11z"
         ),
@@ -138,7 +138,7 @@ class LocationsDataService {
             status: "",  // Durum bilgisi eksik
             coordinates: CLLocationCoordinate2D(latitude: 41.0868398, longitude: 28.9905094),
             description: "",  // Açıklama bilgisi eksik
-            imageNames: [],
+            imageNames: ["no-image"],
             cost: "",  // Ücret bilgisi eksik
             link: "https://maps.app.goo.gl/aXFMNZ6H5fPfDLd77"
         ),
@@ -148,7 +148,7 @@ class LocationsDataService {
             status: "",  // Durum bilgisi eksik
             coordinates: CLLocationCoordinate2D(latitude: 41.0219406, longitude: 28.9410993),
             description: "",  // Açıklama bilgisi eksik
-            imageNames: [],
+            imageNames: ["no-image"],
             cost: "",  // Ücret bilgisi eksik
             link: "https://www.google.com/maps/place/İBB+Fatih+Hırka-ı+Şerif+Camii+Şehir+Tuvaleti/@41.0219406,28.9410993,11z"
         ),
@@ -158,7 +158,7 @@ class LocationsDataService {
             status: "M2 Levent durağı içerisinde yer almaktadır.",  // Durum bilgisi eksik
             coordinates: CLLocationCoordinate2D(latitude: 41.0780469, longitude: 29.0129576),
             description: "",  // Açıklama bilgisi eksik
-            imageNames: [],
+            imageNames: ["no-image"],
             cost: "",  // Ücret bilgisi eksik
             link: "https://www.google.com/maps/place/İBB+M2+Levent+Şehir+Tuvaleti/@41.0780469,29.0129576,11z"
         ),
@@ -168,7 +168,7 @@ class LocationsDataService {
             status: "",  // Durum bilgisi eksik
             coordinates: CLLocationCoordinate2D(latitude: 41.0764893, longitude: 29.0436177),
             description: "",  // Açıklama bilgisi eksik
-            imageNames: [],
+            imageNames: ["no-image"],
             cost: "",  // Ücret bilgisi eksik
             link: "https://www.google.com/maps/place/İBB+Bebek+Parkı+Şehir+Tuvaleti/@41.0764893,29.0436177,11z"
         ),
@@ -178,7 +178,7 @@ class LocationsDataService {
             status: "08:00 - 00:00",
             coordinates: CLLocationCoordinate2D(latitude: 41.0690246, longitude: 29.0106562),
             description: "M2 Gayrettepe metro durağı içerisinde yer almaktadır.",  // Açıklama bilgisi eksik
-            imageNames: [],
+            imageNames: ["no-image"],
             cost: "2",
             link: "https://www.google.com/maps/place/İBB+M2+Gayrettepe+Şehir+Tuvaleti/@41.0690246,29.0106562,11z"
         ),
@@ -188,26 +188,15 @@ class LocationsDataService {
             status: "",  // Durum bilgisi eksik
             coordinates: CLLocationCoordinate2D(latitude: 41.040918, longitude: 28.9420376),
             description: "",  // Açıklama bilgisi eksik
-            imageNames: [],
+            imageNames: ["no-image"],
             cost: "",  // Ücret bilgisi eksik
             link: "https://www.google.com/maps/place/İBB+Eyüpsultan+Kafe+Şehir+Tuvaleti/@41.040918,28.9420376,11z"
         ),
         
-        
-
-        
 
 
-
-
-
-
-    
-
-        
         
          // Location format
-    // The cost may be unnecessary, it will be removed in the next stage.
         
        /*/ Location(name: <#T##String#>,
                  status: <#T##String#>,

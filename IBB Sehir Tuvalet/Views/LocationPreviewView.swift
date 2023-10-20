@@ -95,6 +95,7 @@ extension LocationPreviewView {
                 .frame(width: 125, height: 35)
         }
         .buttonStyle(.bordered)
+        .tint(.teal)
     }
     
 }
