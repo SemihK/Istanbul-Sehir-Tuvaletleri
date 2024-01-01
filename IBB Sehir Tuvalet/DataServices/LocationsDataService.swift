@@ -194,6 +194,47 @@ class LocationsDataService {
             link: "https://www.google.com/maps/place/İBB+Eyüpsultan+Kafe+Şehir+Tuvaleti/@41.040918,28.9420376,11z"
         ),
         
+        Location(
+            name: "Maltepe Şehir Tuvaleti",
+            status: "08:00 - 22:00",
+            coordinates: CLLocationCoordinate2D(latitude: 40.9331756, longitude: 29.115802),
+            description: "Maltepe İBB Şehir Tuvaleti, Maltepe Sahil Yolu üzerinde yer almaktadır.",
+            imageNames: ["no-image", "maltepe-tuvalet-2"],
+            cost: "2₺",
+            link: "https://www.google.com/maps/place/İBB+Şehir+Tuvaleti+Maltepe"
+        ),
+
+        Location(
+            name: "İdealtepe Sahil Şehir Tuvaleti 1",
+            status: "08:00 - 20:00",
+            coordinates: CLLocationCoordinate2D(latitude: 40.9401788, longitude: 29.1097701),
+            description: "İdealtepe Sahil Şehir Tuvaleti 1, sahil boyunca yer alan bir halk tuvaletidir.",
+            imageNames: ["no-image", "idealtepe-tuvalet-2"],
+            cost: "2₺",
+            link: "https://www.google.com/maps/place/İBB+İdealtepe+Sahil+Şehir+Tuvaleti+1"
+        ),
+
+        Location(
+            name: "Maltepe Sahil Şehir Tuvaleti 3",
+            status: "08:00 - 22:00",
+            coordinates: CLLocationCoordinate2D(latitude: 40.9222663, longitude: 29.1245992),
+            description: "Maltepe Sahil Şehir Tuvaleti 3, sahil boyunca hizmet veren bir halk tuvaletidir.",
+            imageNames: ["no-image", "maltepe-tuvalet-4"],
+            cost: "2₺",
+            link: "https://www.google.com/maps/place/İBB+Maltepe+Sahil+Şehir+Tuvaleti+3"
+        ),
+        
+        Location(
+            name: "50. Yıl Korusu Şehir Tuvaleti",
+            status: "08:00 - 20:00",
+            coordinates: CLLocationCoordinate2D(latitude: 40.9414, longitude: 29.1226),
+            description: "50. Yıl Korusu Şehir Tuvaleti, yeşillikler içindeki 50. Yıl Korusu'nda yer alan halk tuvaletidir.",
+            imageNames: ["no-image", "50-yil-korusu-tuvalet-2"],
+            cost: "2₺",
+            link: "https://www.google.com/maps/place/İBB+50.+Yıl+Korusu+Şehir+Tuvaleti"
+        ),
+
+
 
 
         
