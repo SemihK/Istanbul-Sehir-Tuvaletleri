@@ -234,6 +234,36 @@ class LocationsDataService {
             link: "https://www.google.com/maps/place/İBB+50.+Yıl+Korusu+Şehir+Tuvaleti"
         ),
 
+        Location(
+            name: "Galata Eminönü Şehir Tuvaleti",
+            status: "08:00 - 22:00",
+            coordinates: CLLocationCoordinate2D(latitude: 41.0180326, longitude: 28.9722879),
+            description: "Galata Eminönü Şehir Tuvaleti, Galata Kulesi'nin yakınında, Eminönü'nde yer alan halk tuvaletidir.",
+            imageNames: ["galata-eminonu-tuvalet-1", "galata-eminonu-tuvalet-2"],
+            cost: "Ücretsiz",
+            link: "https://www.google.com/maps/place/İBB+Galata+Eminönü+Şehir+Tuvaleti"
+        ),
+
+        Location(
+            name: "Dedeoğlu Parkı Şehir Tuvaleti",
+            status: "08:00 - 18:00",
+            coordinates: CLLocationCoordinate2D(latitude: 41.1070358, longitude: 29.0875711),
+            description: "Dedeoğlu Parkı Şehir Tuvaleti, yeşillikler içindeki Dedeoğlu Parkı'nda hizmet veren halk tuvaletidir.",
+            imageNames: ["dedeoglu-parki-tuvalet-1", "dedeoglu-parki-tuvalet-2"],
+            cost: "2₺",
+            link: "https://www.google.com/maps/place/İBB+Dedeoğlu+Parkı+Şehir+Tuvaleti"
+        ),
+
+        Location(
+            name: "Emirgan Havuz Altı Şehir Tuvaleti",
+            status: "08:00 - 19:00",
+            coordinates: CLLocationCoordinate2D(latitude: 41.108714, longitude: 29.0552605),
+            description: "Emirgan Havuz Altı Şehir Tuvaleti, Emirgan Korusu'nda yer alan halk tuvaletidir.",
+            imageNames: ["emirgan-tuvalet-1", "emirgan-tuvalet-2"],
+            cost: "2₺",
+            link: "https://www.google.com/maps/place/İBB+Emirgan+Havuz+Altı+Şehir+Tuvaleti"
+        ),
+
 
 
 
