@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6050F2DC2B4AE62C008F30DE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050F2DB2B4AE62C008F30DE /* LocationManager.swift */; };
 		60F120092A322D45009D72E5 /* IBB_Sehir_TuvaletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F120082A322D45009D72E5 /* IBB_Sehir_TuvaletApp.swift */; };
 		60F1200B2A322D45009D72E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F1200A2A322D45009D72E5 /* ContentView.swift */; };
 		60F120102A322D45009D72E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60F1200F2A322D45009D72E5 /* Preview Assets.xcassets */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6050F2DB2B4AE62C008F30DE /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		6050F2DD2B4AE97E008F30DE /* IBB-Sehir-Tuvalet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "IBB-Sehir-Tuvalet-Info.plist"; sourceTree = SOURCE_ROOT; };
 		60F120052A322D45009D72E5 /* IBB Sehir Tuvalet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBB Sehir Tuvalet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F120082A322D45009D72E5 /* IBB_Sehir_TuvaletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBB_Sehir_TuvaletApp.swift; sourceTree = "<group>"; };
 		60F1200A2A322D45009D72E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +70,7 @@
 		60F120072A322D45009D72E5 /* IBB Sehir Tuvalet */ = {
 			isa = PBXGroup;
 			children = (
+				6050F2DD2B4AE97E008F30DE /* IBB-Sehir-Tuvalet-Info.plist */,
 				60F1201A2A322EC2009D72E5 /* Models */,
 				60F120192A322EB4009D72E5 /* ViewModels */,
 				60F120182A322EAE009D72E5 /* Views */,
@@ -119,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				60F120292A322FA7009D72E5 /* Location.swift */,
+				6050F2DB2B4AE62C008F30DE /* LocationManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 				60F120202A322F8F009D72E5 /* LocationsListView.swift in Sources */,
 				60F120242A322F97009D72E5 /* LocationMapAnnotationView.swift in Sources */,
 				60F1202A2A322FA7009D72E5 /* Location.swift in Sources */,
+				6050F2DC2B4AE62C008F30DE /* LocationManager.swift in Sources */,
 				60F120262A322F9B009D72E5 /* LocationDetailView.swift in Sources */,
 				60F1200B2A322D45009D72E5 /* ContentView.swift in Sources */,
 				60F120282A322FA2009D72E5 /* LocationsViewModel.swift in Sources */,
@@ -334,8 +340,10 @@
 				DEVELOPMENT_TEAM = LKU9ZN4MN9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IBB-Sehir-Tuvalet-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Şehir Tuvaletleri";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Kullanıcı konumu bulunarak en yakındaki istasyon gösterilir.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -369,8 +377,10 @@
 				DEVELOPMENT_TEAM = LKU9ZN4MN9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IBB-Sehir-Tuvalet-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Şehir Tuvaletleri";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Kullanıcı konumu bulunarak en yakındaki istasyon gösterilir.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

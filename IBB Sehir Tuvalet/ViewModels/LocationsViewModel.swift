@@ -8,6 +8,8 @@
 import Foundation
 import MapKit
 import SwiftUI
+import CoreLocation
+import Combine
 
 class LocationsViewModel: ObservableObject {
     
@@ -82,5 +84,29 @@ class LocationsViewModel: ObservableObject {
         let nextLocation = locations[nextIndex]
         showNextLocation(location: nextLocation)
     }
+    
+
+
+    class LocationsViewModel: ObservableObject {
+        @Published var userLocation: CLLocation?
+        
+        private var locationManager = LocationManager()
+        private var cancellables: Set<AnyCancellable> = Set<AnyCancellable>()
+        
+        init() {
+            setupLocationManager()
+        }
+        
+        private func setupLocationManager() {
+            locationManager.$userLocation
+                .sink { [weak self] location in
+                    self?.userLocation = location
+                }
+                .store(in: &cancellables)
+        }
+        
+    }
+
+
     
 }

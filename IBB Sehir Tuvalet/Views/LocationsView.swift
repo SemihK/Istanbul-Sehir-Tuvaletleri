@@ -82,6 +82,7 @@ extension LocationsView {
                         vm.showNextLocation(location: location)
                     }
             }
+            
         })
     }
     
