@@ -11,6 +11,8 @@ import MapKit
 struct LocationsView: View {
     
     @EnvironmentObject private var vm: LocationsViewModel
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    
     let maxWidthForIpad: CGFloat = 700
     
     var body: some View {
@@ -25,6 +27,10 @@ struct LocationsView: View {
                */
                 Spacer()
                 locationsPreviewStack
+                 
+                
+   
+                
             }
         }
         .sheet(item: $vm.sheetLocation, onDismiss: nil) { location in
@@ -75,8 +81,8 @@ extension LocationsView {
             }
         }
     }
-    
 }
+
 
 // MARK temporary closed
 
