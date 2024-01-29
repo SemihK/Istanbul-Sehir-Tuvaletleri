@@ -65,10 +65,14 @@ extension LocationDetailView {
             Text(location.name)
                 .font(.largeTitle)
                 .fontWeight(.semibold)
-                
-            Text(location.status)
-                .font(.title3)
-                .foregroundColor(.secondary)
+            HStack(){
+                Text(location.status)
+                    .font(.title3)
+                    .foregroundColor(.primary)
+                Text("Çalışma saatleri değişiklik gösterebilir.")
+                    .font(.caption)
+                    .foregroundColor(.yellow)
+        }
         }
     }
     
@@ -85,7 +89,7 @@ extension LocationDetailView {
                 Text("Istanbul Kart")
                     .foregroundColor(.red)
                 Image("istanbulkart-red")
-               
+                    
             }
           
             

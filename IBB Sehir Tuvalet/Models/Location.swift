@@ -34,4 +34,12 @@ struct Location: Identifiable, Equatable {
 
 }
 
-
+struct Kartlar: Identifiable, Equatable {
+    
+    let link: String
+    
+    // Identifiable section
+    var id: String{
+        link
+    }
+}

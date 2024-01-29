@@ -11,9 +11,24 @@ import MapKit
 
 class LocationsDataService {
     
+    static let istanbulkart: [Kartlar] = [
+        Kartlar(
+        link: "https://www.istanbulkart.istanbul"),
+    
+    ]
     static let locations: [Location] = [
         
             //  default Istanbul coordinate: 41.014217508317614, 28.97550922394332
+        
+        Location(
+            name: "Florya Atatürk Ormanı Şehir Tuvaleti 3",
+            status: "08:00 - 20:00",
+            coordinates: CLLocationCoordinate2D(latitude: 40.9799479, longitude: 28.7849802),
+            description: "Florya Atatürk Ormanı Şehir Tuvaleti 3, yeşillikler içindeki ormanlık alanda hizmet veren halk tuvaletidir.",
+            imageNames: ["florya-orman-tuvalet-1", "florya-orman-tuvalet-2"],
+            cost: "2₺",
+            link: "https://www.google.com/maps/place/İBB+Florya+Atatürk+Ormanı+Şehir+Tuvaleti+3"
+        ),
         
         Location(
             name: "Baraj Üstü Parkı Şehir Tuvaleti",
@@ -25,15 +40,6 @@ class LocationsDataService {
             link: "https://www.google.com/maps/place/İBB+Baraj+Üstü+Parkı+Şehir+Tuvaleti"
         ),
         
-        Location(
-            name: "Florya Atatürk Ormanı Şehir Tuvaleti 3",
-            status: "08:00 - 20:00",
-            coordinates: CLLocationCoordinate2D(latitude: 40.9799479, longitude: 28.7849802),
-            description: "Florya Atatürk Ormanı Şehir Tuvaleti 3, yeşillikler içindeki ormanlık alanda hizmet veren halk tuvaletidir.",
-            imageNames: ["florya-orman-tuvalet-1", "florya-orman-tuvalet-2"],
-            cost: "2₺",
-            link: "https://www.google.com/maps/place/İBB+Florya+Atatürk+Ormanı+Şehir+Tuvaleti+3"
-        ),
 
         Location(
                          name: "Yenibosna Aktarma",
