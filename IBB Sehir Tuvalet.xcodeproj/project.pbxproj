@@ -11,6 +11,10 @@
 		60294E6E2B6727C600FD4172 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 60294E6D2B6727C600FD4172 /* Lottie */; };
 		60294E702B67285300FD4172 /* Splash.json in Resources */ = {isa = PBXBuildFile; fileRef = 60294E6F2B67285300FD4172 /* Splash.json */; };
 		6050F2DC2B4AE62C008F30DE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050F2DB2B4AE62C008F30DE /* LocationManager.swift */; };
+		605D54A02B67F61800A6A337 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D549F2B67F61800A6A337 /* OnboardingView.swift */; };
+		605D54A32B67F64500A6A337 /* UIOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = 605D54A22B67F64500A6A337 /* UIOnboarding */; };
+		605D54A52B67F65200A6A337 /* UIOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = 605D54A42B67F65200A6A337 /* UIOnboarding */; };
+		605D54A92B67F7BC00A6A337 /* UIOnboardingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D54A82B67F7BC00A6A337 /* UIOnboardingHelper.swift */; };
 		60E9B31A2B67BA2600DE7650 /* Splash-White.json in Resources */ = {isa = PBXBuildFile; fileRef = 60E9B3192B67BA2600DE7650 /* Splash-White.json */; };
 		60E9B3262B67C3D500DE7650 /* Kalp-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 60E9B3252B67C3D500DE7650 /* Kalp-2.json */; };
 		60F120092A322D45009D72E5 /* IBB_Sehir_TuvaletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F120082A322D45009D72E5 /* IBB_Sehir_TuvaletApp.swift */; };
@@ -32,6 +36,8 @@
 		60294E6F2B67285300FD4172 /* Splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Splash.json; sourceTree = "<group>"; };
 		6050F2DB2B4AE62C008F30DE /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		6050F2DD2B4AE97E008F30DE /* IBB-Sehir-Tuvalet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "IBB-Sehir-Tuvalet-Info.plist"; sourceTree = SOURCE_ROOT; };
+		605D549F2B67F61800A6A337 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		605D54A82B67F7BC00A6A337 /* UIOnboardingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIOnboardingHelper.swift; sourceTree = "<group>"; };
 		60E9B3192B67BA2600DE7650 /* Splash-White.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Splash-White.json"; sourceTree = "<group>"; };
 		60E9B3252B67C3D500DE7650 /* Kalp-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Kalp-2.json"; sourceTree = "<group>"; };
 		60F120052A322D45009D72E5 /* IBB Sehir Tuvalet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBB Sehir Tuvalet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +61,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				60294E6E2B6727C600FD4172 /* Lottie in Frameworks */,
+				605D54A52B67F65200A6A337 /* UIOnboarding in Frameworks */,
+				605D54A32B67F64500A6A337 /* UIOnboarding in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +137,7 @@
 				60F120252A322F9B009D72E5 /* LocationDetailView.swift */,
 				60F120212A322F93009D72E5 /* LocationPreviewView.swift */,
 				60294E6A2B67275F00FD4172 /* SplashScreenView.swift */,
+				605D549F2B67F61800A6A337 /* OnboardingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -146,6 +155,7 @@
 			children = (
 				60F120292A322FA7009D72E5 /* Location.swift */,
 				6050F2DB2B4AE62C008F30DE /* LocationManager.swift */,
+				605D54A82B67F7BC00A6A337 /* UIOnboardingHelper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -168,6 +178,8 @@
 			name = "IBB Sehir Tuvalet";
 			packageProductDependencies = (
 				60294E6D2B6727C600FD4172 /* Lottie */,
+				605D54A22B67F64500A6A337 /* UIOnboarding */,
+				605D54A42B67F65200A6A337 /* UIOnboarding */,
 			);
 			productName = "IBB Sehir Tuvalet";
 			productReference = 60F120052A322D45009D72E5 /* IBB Sehir Tuvalet.app */;
@@ -200,6 +212,7 @@
 			mainGroup = 60F11FFC2A322D45009D72E5;
 			packageReferences = (
 				60294E6C2B6727C600FD4172 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				605D54A12B67F64500A6A337 /* XCRemoteSwiftPackageReference "UIOnboarding" */,
 			);
 			productRefGroup = 60F120062A322D45009D72E5 /* Products */;
 			projectDirPath = "";
@@ -241,6 +254,8 @@
 				60F120092A322D45009D72E5 /* IBB_Sehir_TuvaletApp.swift in Sources */,
 				60F120222A322F93009D72E5 /* LocationPreviewView.swift in Sources */,
 				60F1201C2A322F83009D72E5 /* LocationsDataService.swift in Sources */,
+				605D54A92B67F7BC00A6A337 /* UIOnboardingHelper.swift in Sources */,
+				605D54A02B67F61800A6A337 /* OnboardingView.swift in Sources */,
 				60294E6B2B67275F00FD4172 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,6 +486,14 @@
 				minimumVersion = 4.4.0;
 			};
 		};
+		605D54A12B67F64500A6A337 /* XCRemoteSwiftPackageReference "UIOnboarding" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lascic/UIOnboarding.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -478,6 +501,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 60294E6C2B6727C600FD4172 /* XCRemoteSwiftPackageReference "lottie-spm" */;
 			productName = Lottie;
+		};
+		605D54A22B67F64500A6A337 /* UIOnboarding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 605D54A12B67F64500A6A337 /* XCRemoteSwiftPackageReference "UIOnboarding" */;
+			productName = UIOnboarding;
+		};
+		605D54A42B67F65200A6A337 /* UIOnboarding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 605D54A12B67F64500A6A337 /* XCRemoteSwiftPackageReference "UIOnboarding" */;
+			productName = UIOnboarding;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

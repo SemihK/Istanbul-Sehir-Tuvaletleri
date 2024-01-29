@@ -9,6 +9,7 @@ import SwiftUI
 import MapKit
 
 struct LocationsView: View {
+    @State private var showingOnboarding = true
     
     @EnvironmentObject private var vm: LocationsViewModel
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
@@ -19,7 +20,11 @@ struct LocationsView: View {
         ZStack {
             mapLayer
                 .ignoresSafeArea()
-            
+                .fullScreenCover(isPresented: $showingOnboarding, content: {
+                    OnboardingView()
+                        .edgesIgnoringSafeArea(.all)
+                })
+                .preferredColorScheme(.dark)
             VStack(spacing: 0) {
                /* header
                     .padding()
