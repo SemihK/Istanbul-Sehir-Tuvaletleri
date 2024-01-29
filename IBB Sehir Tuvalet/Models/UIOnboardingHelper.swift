@@ -30,7 +30,7 @@ struct UIOnboardingHelper {
     static func setUpFeatures() -> Array<UIOnboardingFeature> {
         return .init([
             .init(icon: .init(named: "feature-1")!,
-                  title: "Seyahat ederken",
+                  title: "Seyahat Ederken",
                   description: "Yolculuğunuz esnasında ihtiyaçlarınız için en yakın istasyonu arayın."),
             .init(icon: .init(named: "feature-2")!,
                   title: "Kullanıcı Dostu",
