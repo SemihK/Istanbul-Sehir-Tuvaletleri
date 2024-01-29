@@ -23,7 +23,6 @@
 ![home screen](https://github.com/SemihK/CTM/blob/main/images/screenshot/Mode=Light.png?raw=true)|  |
 
 
-> ⚠️ Remember! The location data in the local dataService is in the development process. Not all location are attached yet. You can contribute add locations in app.
 
 > Thanks to Swiftfull Thinking for this informative course content. I think I've improved myself a lot with this example.
 
