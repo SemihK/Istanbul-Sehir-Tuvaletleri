@@ -10,19 +10,33 @@ import Lottie
 
 
 struct SplashScreenView: View {
+    @State var isActive : Bool = false
+    
     var body: some View {
-                ZStack(){
-                    Color.primary
-                                .edgesIgnoringSafeArea(.all)
-                    LottieView(animation: .named("Splash"))
-                        .playing(loopMode: .playOnce)
+        if isActive {
+            LocationsView()
+        } else {
+            ZStack(){
+                Color.primary
+                    .edgesIgnoringSafeArea(.all)
+                LottieView(animation: .named("Splash"))
+                    .playing(loopMode: .playOnce)
+            }
+            .onAppear {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 5.5) {
+                    withAnimation {
+                        self.isActive = true
+                    }
                 }
             }
+        }
     }
+}
 
 
 #Preview {
     SplashScreenView()
 }
+
 
 
