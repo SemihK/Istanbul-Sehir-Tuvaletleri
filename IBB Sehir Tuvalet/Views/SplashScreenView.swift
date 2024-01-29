@@ -11,7 +11,6 @@ import Lottie
 
 struct SplashScreenView: View {
     @State var isActive : Bool = false
-    
     var body: some View {
         if isActive {
             LocationsView()
@@ -21,6 +20,7 @@ struct SplashScreenView: View {
                     .edgesIgnoringSafeArea(.all)
                 LottieView(animation: .named("Splash"))
                     .playing(loopMode: .playOnce)
+             
             }
             .onAppear {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 5.5) {
