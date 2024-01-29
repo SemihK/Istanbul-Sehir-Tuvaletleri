@@ -14,7 +14,17 @@ class LocationsDataService {
     static let locations: [Location] = [
         
             //  default Istanbul coordinate: 41.014217508317614, 28.97550922394332
-            
+        
+        Location(
+            name: "Baraj Üstü Parkı Şehir Tuvaleti",
+            status: "08:00 - 18:00",
+            coordinates: CLLocationCoordinate2D(latitude: 41.1632447, longitude: 28.7854242),
+            description: "Baraj Üstü Parkı Şehir Tuvaleti, gölet manzaralı parkta hizmet veren halk tuvaletidir.",
+            imageNames: ["no-image", "baraj-ustu-tuvalet-2"],
+            cost: "2₺",
+            link: "https://www.google.com/maps/place/İBB+Baraj+Üstü+Parkı+Şehir+Tuvaleti"
+        ),
+
         Location(
                          name: "Yenibosna Aktarma",
                          status: "08:00 - 20:00",

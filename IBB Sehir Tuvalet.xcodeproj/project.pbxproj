@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60294E6B2B67275F00FD4172 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60294E6A2B67275F00FD4172 /* SplashScreenView.swift */; };
+		60294E6E2B6727C600FD4172 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 60294E6D2B6727C600FD4172 /* Lottie */; };
+		60294E702B67285300FD4172 /* Splash.json in Resources */ = {isa = PBXBuildFile; fileRef = 60294E6F2B67285300FD4172 /* Splash.json */; };
 		6050F2DC2B4AE62C008F30DE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050F2DB2B4AE62C008F30DE /* LocationManager.swift */; };
 		60F120092A322D45009D72E5 /* IBB_Sehir_TuvaletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F120082A322D45009D72E5 /* IBB_Sehir_TuvaletApp.swift */; };
 		60F1200B2A322D45009D72E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F1200A2A322D45009D72E5 /* ContentView.swift */; };
@@ -23,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60294E6A2B67275F00FD4172 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		60294E6F2B67285300FD4172 /* Splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Splash.json; sourceTree = "<group>"; };
 		6050F2DB2B4AE62C008F30DE /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		6050F2DD2B4AE97E008F30DE /* IBB-Sehir-Tuvalet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "IBB-Sehir-Tuvalet-Info.plist"; sourceTree = SOURCE_ROOT; };
 		60F120052A322D45009D72E5 /* IBB Sehir Tuvalet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBB Sehir Tuvalet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60294E6E2B6727C600FD4172 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +100,7 @@
 		60F120172A322E8A009D72E5 /* DataServices */ = {
 			isa = PBXGroup;
 			children = (
+				60294E6F2B67285300FD4172 /* Splash.json */,
 				60F1201B2A322F83009D72E5 /* LocationsDataService.swift */,
 			);
 			path = DataServices;
@@ -107,6 +114,7 @@
 				60F120232A322F97009D72E5 /* LocationMapAnnotationView.swift */,
 				60F120252A322F9B009D72E5 /* LocationDetailView.swift */,
 				60F120212A322F93009D72E5 /* LocationPreviewView.swift */,
+				60294E6A2B67275F00FD4172 /* SplashScreenView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -144,6 +152,9 @@
 			dependencies = (
 			);
 			name = "IBB Sehir Tuvalet";
+			packageProductDependencies = (
+				60294E6D2B6727C600FD4172 /* Lottie */,
+			);
 			productName = "IBB Sehir Tuvalet";
 			productReference = 60F120052A322D45009D72E5 /* IBB Sehir Tuvalet.app */;
 			productType = "com.apple.product-type.application";
@@ -173,6 +184,9 @@
 				tr,
 			);
 			mainGroup = 60F11FFC2A322D45009D72E5;
+			packageReferences = (
+				60294E6C2B6727C600FD4172 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = 60F120062A322D45009D72E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -188,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60F120102A322D45009D72E5 /* Preview Assets.xcassets in Resources */,
+				60294E702B67285300FD4172 /* Splash.json in Resources */,
 				60F1202C2A323330009D72E5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +225,7 @@
 				60F120092A322D45009D72E5 /* IBB_Sehir_TuvaletApp.swift in Sources */,
 				60F120222A322F93009D72E5 /* LocationPreviewView.swift in Sources */,
 				60F1201C2A322F83009D72E5 /* LocationsDataService.swift in Sources */,
+				60294E6B2B67275F00FD4172 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +365,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = SplashScreenView;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -386,6 +403,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = SplashScreenView;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -427,6 +445,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		60294E6C2B6727C600FD4172 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		60294E6D2B6727C600FD4172 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60294E6C2B6727C600FD4172 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 60F11FFD2A322D45009D72E5 /* Project object */;
 }

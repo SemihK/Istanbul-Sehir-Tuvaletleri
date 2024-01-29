@@ -79,8 +79,17 @@ extension LocationDetailView {
                 .font(.title3)
                 .foregroundColor(.secondary)
             
-
+            HStack(){
+                Text("You can pay with")
+                    .foregroundColor(.secondary)
+                Text("Istanbul Kart")
+                    .foregroundColor(.red)
+                Image("istanbulkart-red")
+               
+            }
+          
             
+                   
             if let url = URL(string: location.link) {
                 Link("ALO 153", destination: url)
                     .font(.headline)
