@@ -21,7 +21,7 @@ struct InfoPageView: View {
     @EnvironmentObject private var vm: LocationsViewModel
     
     var body: some View {
-    
+        
         ScrollView{
             VStack(alignment: .leading, spacing: 16) {
                 LottieView(animation: .named("Kalp-2"))
