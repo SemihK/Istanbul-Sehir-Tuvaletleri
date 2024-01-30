@@ -93,9 +93,9 @@ extension LocationsView {
         Button {
             isInfoPageViewPresented.toggle()
         } label: {
-            Image(systemName: "info.circle.fill")
+            Image(systemName: "questionmark.square.fill")
                 .font(.headline)
-                .foregroundColor(.white)
+                .foregroundColor(.black)
                 .padding()
         }
         .buttonStyle(.automatic)
