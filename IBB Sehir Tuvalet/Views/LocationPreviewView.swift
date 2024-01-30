@@ -86,8 +86,6 @@ extension LocationPreviewView {
      }
      */
     
-  
-    
     
     
     private var learnMoreButton: some View {

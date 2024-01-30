@@ -10,6 +10,7 @@ import MapKit
 
 struct LocationsView: View {
     @State private var showingOnboarding = true
+    @State private var isInfoPageViewPresented = false
   //  @StateObject private var toastModel = ToastModel()
     
     @EnvironmentObject private var vm: LocationsViewModel
@@ -35,6 +36,12 @@ struct LocationsView: View {
                */
                 Spacer()
                 locationsPreviewStack
+                
+                    .overlay(
+                        info
+                            .position(x: UIScreen.main.bounds.width - 45, y: -470)
+                            .animation(.none, value: 0)
+                                    )
                  
                 
    
@@ -88,6 +95,21 @@ extension LocationsView {
                             removal: .move(edge: .leading)))
                 }
             }
+        }
+    }
+    
+    private var info: some View {
+        Button {
+            isInfoPageViewPresented.toggle()
+        } label: {
+            Image(systemName: "info.circle.fill")
+                .font(.headline)
+                .foregroundColor(.white)
+                .padding()
+        }
+        .buttonStyle(.automatic)
+        .fullScreenCover(isPresented: $isInfoPageViewPresented) {
+            InfoPageView()
         }
     }
     
