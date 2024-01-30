@@ -8,17 +8,19 @@
 import SwiftUI
 
 struct LocationPreviewView: View {
-    
+    @State private var isInfoPageViewPresented = false
     @EnvironmentObject private var vm: LocationsViewModel
     let location: Location
     
     var body: some View {
+        
+        
         HStack(alignment: .bottom, spacing: 0) {
             VStack(alignment: .leading, spacing: 16) {
                 imageSection
                 titleSection
+                
             }
-            
             VStack(spacing: 8) {
                 learnMoreButton
                 nextButton
@@ -31,13 +33,13 @@ struct LocationPreviewView: View {
                 .offset(y: 65)
         )
         .cornerRadius(10)
-    }
-}
+        }
+                    }
 
 struct LocationPreviewView_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
-            Color.green.ignoresSafeArea()
+            Color.yellow.ignoresSafeArea()
             
             LocationPreviewView(location: LocationsDataService.locations.first!)
                 .padding()
@@ -75,6 +77,19 @@ extension LocationPreviewView {
         .frame(maxWidth: .infinity, alignment: .leading)
     }
     
+    
+    /*   private var info: some View{
+     Image(systemName: "info.circle.fill")
+     .foregroundColor(.white)
+     .padding(.leading, 10)
+     
+     }
+     */
+    
+  
+    
+    
+    
     private var learnMoreButton: some View {
         Button {
             vm.sheetLocation = location
@@ -97,5 +112,5 @@ extension LocationPreviewView {
         .buttonStyle(.bordered)
         .tint(.teal)
     }
-    
 }
+

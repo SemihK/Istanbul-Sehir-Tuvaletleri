@@ -6,21 +6,20 @@
 //
 import SwiftUI
 
+
 struct ContentView: View {
-   
+    
     
     var body: some View {
-        NavigationView {
-            Text("Hello, UIOnboarding!")
-                
-                
+        VStack {
+            
         }
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
+    
 }
-

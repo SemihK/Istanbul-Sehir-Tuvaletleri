@@ -10,11 +10,14 @@ import MapKit
 
 struct LocationsView: View {
     @State private var showingOnboarding = true
+  //  @StateObject private var toastModel = ToastModel()
     
     @EnvironmentObject private var vm: LocationsViewModel
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     
     let maxWidthForIpad: CGFloat = 700
+    
+    
     
     var body: some View {
         ZStack {
@@ -41,6 +44,7 @@ struct LocationsView: View {
         .sheet(item: $vm.sheetLocation, onDismiss: nil) { location in
             LocationDetailView(location: location)
         }
+        
     }
 }
 
@@ -86,7 +90,11 @@ extension LocationsView {
             }
         }
     }
+    
+    
 }
+         
+     
 
 
 // MARK temporary closed
@@ -119,3 +127,36 @@ extension LocationsView {
  .shadow(color: Color.black.opacity(0.3), radius: 20, x: 0, y: 15)
 }
 */
+
+
+// Toast Bildirim
+
+/*
+ private var header: some View {
+     VStack {
+         
+         ZStack {
+             
+             RoundedRectangle(cornerRadius: 50)
+                 .foregroundColor(Color.accentColor.opacity(1))
+                 .frame(height: 50)
+             
+             
+             HStack {
+                 Image(systemName: "tram.fill")
+                     .foregroundColor(.white)
+                     .padding(.leading, 10)
+                 
+                 Text("Metro istasyonları içerisinde WC bulunmaktadır.")
+                     .foregroundColor(.white)
+                     .font(.footnote)
+                     .fontWeight(.bold)
+                 
+             }
+         }
+         .transition(.opacity)
+                 .animation(.easeInOut(duration: 0.5))
+         
+     }
+ }
+ */

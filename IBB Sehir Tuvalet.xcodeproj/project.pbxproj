@@ -15,6 +15,7 @@
 		605D54A32B67F64500A6A337 /* UIOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = 605D54A22B67F64500A6A337 /* UIOnboarding */; };
 		605D54A52B67F65200A6A337 /* UIOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = 605D54A42B67F65200A6A337 /* UIOnboarding */; };
 		605D54A92B67F7BC00A6A337 /* UIOnboardingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D54A82B67F7BC00A6A337 /* UIOnboardingHelper.swift */; };
+		609099582B686D0A00F7A577 /* InfoPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609099572B686D0A00F7A577 /* InfoPageView.swift */; };
 		60E9B31A2B67BA2600DE7650 /* Splash-White.json in Resources */ = {isa = PBXBuildFile; fileRef = 60E9B3192B67BA2600DE7650 /* Splash-White.json */; };
 		60E9B3262B67C3D500DE7650 /* Kalp-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 60E9B3252B67C3D500DE7650 /* Kalp-2.json */; };
 		60F120092A322D45009D72E5 /* IBB_Sehir_TuvaletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F120082A322D45009D72E5 /* IBB_Sehir_TuvaletApp.swift */; };
@@ -38,6 +39,7 @@
 		6050F2DD2B4AE97E008F30DE /* IBB-Sehir-Tuvalet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "IBB-Sehir-Tuvalet-Info.plist"; sourceTree = SOURCE_ROOT; };
 		605D549F2B67F61800A6A337 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		605D54A82B67F7BC00A6A337 /* UIOnboardingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIOnboardingHelper.swift; sourceTree = "<group>"; };
+		609099572B686D0A00F7A577 /* InfoPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPageView.swift; sourceTree = "<group>"; };
 		60E9B3192B67BA2600DE7650 /* Splash-White.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Splash-White.json"; sourceTree = "<group>"; };
 		60E9B3252B67C3D500DE7650 /* Kalp-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Kalp-2.json"; sourceTree = "<group>"; };
 		60F120052A322D45009D72E5 /* IBB Sehir Tuvalet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBB Sehir Tuvalet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +140,7 @@
 				60F120212A322F93009D72E5 /* LocationPreviewView.swift */,
 				60294E6A2B67275F00FD4172 /* SplashScreenView.swift */,
 				605D549F2B67F61800A6A337 /* OnboardingView.swift */,
+				609099572B686D0A00F7A577 /* InfoPageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,7 +196,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					60F120042A322D45009D72E5 = {
 						CreatedOnToolsVersion = 14.2;
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60F120202A322F8F009D72E5 /* LocationsListView.swift in Sources */,
+				609099582B686D0A00F7A577 /* InfoPageView.swift in Sources */,
 				60F120242A322F97009D72E5 /* LocationMapAnnotationView.swift in Sources */,
 				60F1202A2A322FA7009D72E5 /* Location.swift in Sources */,
 				6050F2DC2B4AE62C008F30DE /* LocationManager.swift in Sources */,
@@ -267,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -299,6 +304,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -327,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -359,6 +366,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
