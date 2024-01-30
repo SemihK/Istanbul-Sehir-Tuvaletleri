@@ -11,15 +11,11 @@ import MapKit
 struct LocationsView: View {
     @State private var showingOnboarding = true
     @State private var isInfoPageViewPresented = false
-  //  @StateObject private var toastModel = ToastModel()
-    
+
     @EnvironmentObject private var vm: LocationsViewModel
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     
     let maxWidthForIpad: CGFloat = 700
-    
-    
-    
     var body: some View {
         ZStack {
             mapLayer
@@ -42,10 +38,6 @@ struct LocationsView: View {
                             .position(x: UIScreen.main.bounds.width - 45, y: -470)
                             .animation(.none, value: 0)
                                     )
-                 
-                
-   
-                
             }
         }
         .sheet(item: $vm.sheetLocation, onDismiss: nil) { location in
@@ -63,7 +55,6 @@ struct LocationsView_Previews: PreviewProvider {
 }
 
 extension LocationsView {
-    
     
     private var mapLayer: some View {
         Map(coordinateRegion: $vm.mapRegion,
@@ -112,8 +103,6 @@ extension LocationsView {
             InfoPageView()
         }
     }
-    
-    
 }
          
      
@@ -151,34 +140,3 @@ extension LocationsView {
 */
 
 
-// Toast Bildirim
-
-/*
- private var header: some View {
-     VStack {
-         
-         ZStack {
-             
-             RoundedRectangle(cornerRadius: 50)
-                 .foregroundColor(Color.accentColor.opacity(1))
-                 .frame(height: 50)
-             
-             
-             HStack {
-                 Image(systemName: "tram.fill")
-                     .foregroundColor(.white)
-                     .padding(.leading, 10)
-                 
-                 Text("Metro istasyonları içerisinde WC bulunmaktadır.")
-                     .foregroundColor(.white)
-                     .font(.footnote)
-                     .fontWeight(.bold)
-                 
-             }
-         }
-         .transition(.opacity)
-                 .animation(.easeInOut(duration: 0.5))
-         
-     }
- }
- */
