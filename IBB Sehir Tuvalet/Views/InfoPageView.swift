@@ -26,16 +26,17 @@ struct InfoPageView: View {
             VStack(alignment: .leading, spacing: 16) {
                 LottieView(animation: .named("Kalp-2"))
                     .playing(loopMode: .autoReverse)
-                    .position(x: 180 , y: 40)
-                titleSection
-                descriptionSection
-                Divider()
-                contactSection
-            }
+                    .frame(maxWidth: .infinity, alignment: .top)
+                    titleSection
+                    descriptionSection
+                    Divider()
+                    contactSection
+                }
+            
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding()
             
-        }
+        }.frame(maxWidth: .infinity, maxHeight: .infinity)
     
         Button {
             isLocationPreviewPresented.toggle()
