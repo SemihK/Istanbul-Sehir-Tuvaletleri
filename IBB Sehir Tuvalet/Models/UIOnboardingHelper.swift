@@ -37,7 +37,10 @@ struct UIOnboardingHelper {
                   description: "Sade arayüz ile en yakın istasyonu kolaylıkla bulun."),
             .init(icon: .init(named: "feature-3")!,
                   title: "Temiz ve Güvenilir",
-                  description: "İstanbul Büyükşehir Belediyesi hizmetidir.")
+                  description: "İstanbul Büyükşehir Belediyesi hizmetidir."),
+            .init(icon: .init(named: "feature-4")!,
+                  title: "Gönüllü",
+                  description: "Uygulama tamamen ücretsiz ve reklamsız İstanbul halkına hizmet etmektedir.")
         ])
     }
     

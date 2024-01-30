@@ -11,7 +11,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "istanbul-buyuksehir-belediyesi-logo-svg-vector.svg",
+      "filename" : "charity-donation-hand-love-icon.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -22,7 +22,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "IBB-Light.png",
+      "filename" : "Volunteer-White.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -78,8 +78,5 @@
   "info" : {
     "author" : "xcode",
     "version" : 1
-  },
-  "properties" : {
-    "template-rendering-intent" : "template"
   }
 }

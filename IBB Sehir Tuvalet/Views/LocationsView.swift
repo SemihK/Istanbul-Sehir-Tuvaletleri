@@ -28,7 +28,7 @@ struct LocationsView: View {
                     OnboardingView()
                         .edgesIgnoringSafeArea(.all)
                 })
-                .preferredColorScheme(.dark)
+                .preferredColorScheme(.none)
             VStack(spacing: 0) {
                /* header
                     .padding()
