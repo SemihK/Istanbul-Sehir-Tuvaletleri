@@ -9,8 +9,7 @@ import SwiftUI
 import MapKit
 
 struct LocationsView: View {
-    @State private var showingOnboarding = true
-    @State private var isInfoPageViewPresented = false
+    @AppStorage("hasCompletedOnboarding") private var hasCompletedOnboarding = false // UserDefaults anahtarını kontrol etmek için
 
     @EnvironmentObject private var vm: LocationsViewModel
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
@@ -20,24 +19,16 @@ struct LocationsView: View {
         ZStack {
             mapLayer
                 .ignoresSafeArea()
-                .fullScreenCover(isPresented: $showingOnboarding, content: {
+                .fullScreenCover(isPresented: $hasCompletedOnboarding) {
                     OnboardingView()
                         .edgesIgnoringSafeArea(.all)
-                })
+                }
                 .preferredColorScheme(.none)
             VStack(spacing: 0) {
-               /* header
-                    .padding()
-                    .frame(maxWidth: maxWidthForIpad)
-               */
                 Spacer()
                 locationsPreviewStack
                 
-                    .overlay(
-                        info
-                            .position(x: UIScreen.main.bounds.width - 45, y: -470)
-                            .animation(.none, value: 0)
-                                    )
+                 
             }
         }
         .sheet(item: $vm.sheetLocation, onDismiss: nil) { location in
@@ -89,54 +80,41 @@ extension LocationsView {
         }
     }
     
-    private var info: some View {
-        Button {
-            isInfoPageViewPresented.toggle()
-        } label: {
-            Image(systemName: "questionmark.square.fill")
-                .font(.title)
-                .foregroundColor(.secondary)
-                .padding()
-        }
-        .buttonStyle(.automatic)
-        .fullScreenCover(isPresented: $isInfoPageViewPresented) {
-            InfoPageView()
-        }
-    }
-}
-         
-     
-
-
-// MARK temporary closed
-
-/* private var header: some View {
- VStack {
+    
+    
+    
+    
+    
+    // MARK temporary closed
+    
+    /* private var header: some View {
+     VStack {
      Button(action: vm.toggleLocationsList) {
-         Text(vm.mapLocation.name)
-             .font(.title2)
-             .fontWeight(.black)
-             .foregroundColor(.primary)
-             .frame(height: 55)
-             .frame(maxWidth: .infinity)
-             .animation(.none, value: vm.mapLocation)
-             .overlay(alignment: .leading) {
-                 Image(systemName: "arrow.down")
-                     .font(.headline)
-                     .foregroundColor(.primary)
-                     .padding()
-                     .rotationEffect(Angle(degrees: vm.showLocationsList ? 180 : 0))
-             }
+     Text(vm.mapLocation.name)
+     .font(.title2)
+     .fontWeight(.black)
+     .foregroundColor(.primary)
+     .frame(height: 55)
+     .frame(maxWidth: .infinity)
+     .animation(.none, value: vm.mapLocation)
+     .overlay(alignment: .leading) {
+     Image(systemName: "arrow.down")
+     .font(.headline)
+     .foregroundColor(.primary)
+     .padding()
+     .rotationEffect(Angle(degrees: vm.showLocationsList ? 180 : 0))
+     }
      }
      
      if vm.showLocationsList {
-         LocationsListView()
+     LocationsListView()
      }
- }
- .background(.thickMaterial)
- .cornerRadius(10)
- .shadow(color: Color.black.opacity(0.3), radius: 20, x: 0, y: 15)
+     }
+     .background(.thickMaterial)
+     .cornerRadius(10)
+     .shadow(color: Color.black.opacity(0.3), radius: 20, x: 0, y: 15)
+     }
+     */
+    
+    
 }
-*/
-
-
