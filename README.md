@@ -1,25 +1,44 @@
 
-# Merhaba! 👋
-> CTM, Istanbul Büyükşehir Belediyesi Şehir Tuvaletlerini harita üzerinde gösteren iOS aplikasyonu.
 
 
+<h1 align="center">
+  <br>
+  <a href="https://github.com/SemihK/standby"><img src="https://github.com/SemihK/Istanbul-Sehir-Tuvaletleri/blob/main/images/app-logo-orange.png?raw=true" alt="standby" width="200"></a>
+  <br>
+Istanbul Sehir Tuvaletleri
+  <br>
+</h1>
 
-- Bu projeyi SwiftUI derslerim sonucunda öğrendiğim bilgiler ile kendimi geliştirmek için geliştirdim. 
-- Model-View-Model Mimarisi ile oluşturduğum bu projeyi SwiftUI kullanarak kullanıcılara en yakın IBB Şehir WC'lerini gösteren bir aplikasyon geliştiriyorum.
+<h4 align="center">Istanbul City Toliet Guide application for iPhone / iPad and Mac</a>.</h4>
 
->Güncel Uygulama Logo;
->
-![app logo](https://github.com/SemihK/CTM/blob/main/images/Final%20App%20Logo128.png?raw=true)
->Eski Uygulama Logo;
->
-![enter image description here](https://github.com/SemihK/CTM/blob/main/images/app-logo-blue-old128.png?raw=true)
+<p align="center">
+<a href="https://apps.apple.com/tr/app/istanbul-%C5%9Fehir-tuvaletleri/id6480045938?l=tr" title="Go to Apple homepage"><img src="https://img.shields.io/badge/OS-macOS-blue?logo=apple&logoColor=white" alt="OS - macOS"></a>
+  </a>
+<a href="https://apps.apple.com/tr/app/istanbul-%C5%9Fehir-tuvaletleri/id6480045938?l=tr"><img src="https://img.shields.io/badge/%EF%A3%BF_-iOS_17%2B-2ea44f" alt=" - iOS 17+"></a>
+<a href="/CONTRIBUTING.md" title="Go to contributions doc"><img src="https://img.shields.io/badge/contributions-welcome-blue" alt="contributions - welcome"></a>
+ <a href="#license"><img src="https://img.shields.io/badge/License-MIT-red" alt="License"></a>
+</p>
 
-- Logonun tasarımını yaparken uygulamanın amacını en etkin şekilde anlatacak yalın bir tasarıma ulaşmaya özen gösterdim. Kullanıcı ekranında görsel karışıklık yaratmadan, aynı zamanda İBB'nin genel renklerini kullanmaya özen göstererek renk seçimini gerçekleştirdim.
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+    <a href="#key-features">Screenshot</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#download">Download</a> •
+  <a href="#license">License</a>
+</p>
 
+![screenshot](https://github.com/SemihK/maps-for-wc/blob/main/images/screenshot/screen%20view.png?raw=true)
 
-> That's been one of my mantras - focus and simplicity. Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it's worth it in the end because once you get there, you can move mountain.
- Steve Jobs
+## Key Features
 
+* Minimalist appearance
+* Dark/Light mode
+* Full screen mode
+ * Distraction free.
+* Multi platform
+  -  iPhone / MacOS and iPadOS ready.
+  
+## Screenshot 
 
 |  ![Map View](https://github.com/SemihK/maps-for-wc/blob/main/images/screenshot/detail%20view.png?raw=true)| ![List View](https://github.com/SemihK/maps-for-wc/blob/main/images/screenshot/detail%20page.png?raw=true) |
 |--|--|
@@ -30,10 +49,26 @@
 
 
 
-> Thanks to Swiftfull Thinking for this informative course content. I think I've improved myself a lot with this example.
 
-### Support Me
 
-<a href="https://www.buymeacoffee.com/semihkesgin"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
-or
-Github Sponsor ❤️
+## Download
+
+[App Store](https://apps.apple.com/tr/app/istanbul-%C5%9Fehir-tuvaletleri/id6480045938?l=tr)
+
+
+## Support
+
+<a href="https://www.buymeacoffee.com/semihkesgin" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
+
+
+## License
+
+MIT
+
+---
+
+
+
+> e-mail: semihkesgin@icloud.com
+
