@@ -6,27 +6,26 @@
 //
 
 import SwiftUI
+import MapKit
+
 
 struct LocationPreviewView: View {
-    @State private var isInfoPageViewPresented = false
+    @EnvironmentObject private var vm2: LocationMapViewModel
     @EnvironmentObject private var vm: LocationsViewModel
     let location: Location
     
     var body: some View {
-        
-        
         HStack(alignment: .bottom, spacing: 0) {
             VStack(alignment: .leading, spacing: 16) {
                 imageSection
                 titleSection
-                
             }
-            VStack(spacing: 8) {
+            VStack(spacing: 10) {
                 learnMoreButton
                 nextButton
             }
         }
-        .padding(20)
+        .padding(10)
         .background(
             RoundedRectangle(cornerRadius: 10)
                 .fill(.ultraThinMaterial)
@@ -76,18 +75,7 @@ extension LocationPreviewView {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
     }
-    
-    
-    /*   private var info: some View{
-     Image(systemName: "info.circle.fill")
-     .foregroundColor(.white)
-     .padding(.leading, 10)
-     
-     }
-     */
-    
-    
-    
+        
     private var learnMoreButton: some View {
         Button {
             vm.sheetLocation = location
@@ -100,15 +88,27 @@ extension LocationPreviewView {
     }
     
     private var nextButton: some View {
-        Button {
-            vm.nextButtonPressed()
-        } label: {
-            Text("Sıradaki")
-                .font(.headline)
-                .frame(width: 125, height: 35)
+            return Button(action: {
+                if let destinationCoordinate = vm.mapLocation?.coordinates {
+                    openInMaps(destinationCoordinate: destinationCoordinate)
+                }
+            }) {
+                Text("Yol Tarifi")
+                    .font(.headline)
+                    .frame(width: 125, height: 35)
+                    .foregroundColor(.white)
+            }
+            .buttonStyle(.borderedProminent)
+                .tint(.pink)
         }
-        .buttonStyle(.bordered)
-        .tint(.teal)
+        
+        private func openInMaps(destinationCoordinate: CLLocationCoordinate2D) {
+            let destinationPlacemark = MKPlacemark(coordinate: destinationCoordinate)
+            let destinationMapItem = MKMapItem(placemark: destinationPlacemark)
+            destinationMapItem.name = "Hedef Lokasyon"
+            
+            // Harita uygulamasında hedef lokasyonu aç
+            MKMapItem.openMaps(with: [destinationMapItem], launchOptions: [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving])
+        }
     }
-}
 

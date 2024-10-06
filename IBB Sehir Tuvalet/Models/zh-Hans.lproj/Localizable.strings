@@ -1,0 +1,40 @@
+/*
+ Localizable.strings
+ Istanbul City Toilets
+
+ Created by Semih Kesgin on 22.03.2024.
+  
+*/
+"Kapalı" = "关闭";
+"Açık" = "开放";
+"Detaylar" = "详情";
+"Yol Tarifi" = "路线";
+"Hedef Lokasyon" = "目标位置";
+"Haritada Göster" = "显示地图";
+"Seyahat Halinde" = "旅途中";
+"Yolculuğunuz esnasında ihtiyaçlarınız için en yakın istasyonu arayın." = "在旅途中找到您需求的最近站点。";
+"Kullanıcı Dostu" = "用户友好";
+"Sade arayüz ile üyelik gerektirmeden en yakın istasyonu kolaylıkla bulun." = "轻松找到最近的站点，无需注册，界面简单。";
+"Temiz ve Güvenilir" = "干净可靠";
+"Şehir Tuvaletleri İstanbul Büyükşehir Belediyesi hizmetidir." = "市政厕所是伊斯坦布尔大都市直辖市政府提供的服务。";
+"Gönüllü" = "志愿者";
+"Bu hizmet gönüllü bir oluşumdur herhangi bir kar amacı gütmemektedir. Ücretsiz bir şekilde faydalanabilirsiniz." = "这是一种志愿服务，不以盈利为目的。您可以免费使用它。";
+"Daha fazlası için..." = "更多...";
+"Devam Et" = "继续";
+"Hosgeldiniz" = "欢迎来到";
+"Beyaz Masa'yı aramak için görsele tıklayın." = "单击图像以拨打 153 白桌热线";
+"Geri Bildirim" = "反馈";
+"Devam Et" = "继续";
+"Yardım" = "帮助";
+"Hakkında" = "关于";
+"Kullanmakta olduğunuz bu uygulama tamamen gönüllü olarak tarafımca geliştirilmiştir. Veriler ve istasyon durumları anlık olarak kontrol edilmemektedir. Lütfen herhangi bir aksaklık ve eksiklik durumunu Bize Ulaş kısmından bana yazınız. " = "您正在使用的此应用程序完全由我自愿开发。数据和车站状态不会实时监控。如果您发现任何错误或遗漏，请通过“联系我们”部分告诉我。";
+"Yasal Uyarı" = "法律免责声明";
+"Bu uygulama yalnızca bilgilendirme amaçlıdır ve herhangi bir işletme sorumluluğu gözetmez. İstasyon bilgileri eksik veya operasyondan farklı olabilir. Kullanımı kendi sorumluluğunuzdadır." = "此应用程序仅用于信息目的，不承担任何运营责任。车站信息可能不完整或与实际操作不同。您使用它由您自己承担风险。";
+"Bize Ulaşın" = "联系我们";
+"E-posta Gönder" = "发送电子邮件";
+"Üyelik Yok" = "免费";
+"Erkek" = "男人";
+"Kadın" = "女人";
+"Engelli" = "受限制的";
+"Metro İstanbul istasyonları içerisinde Erkek ve Kadın tuvaletleri bulunmaktadır." = "伊斯坦布尔地铁站内设有男女洗手间。";
+"Yakınınızdaki istasyonları haritada görmek için tıklayınız." = "点击这里在地图上查看您附近的车站。";

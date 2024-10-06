@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  Istanbul City Toilets
+
+  Created by Semih Kesgin on 22.03.2024.
+  
+*/
+
+"welcome" = "Hos Geldiniz";
+"veri bulunamadi" = "Veri bulunamadı";
+"Click here to call ALO153 White Desk hotline for your complaints and suggestions" = "Şikayetleriniz ve önerileriniz için ALO153 Beyaz Masa hattını aramak için tıklayın";
+"Click here to call ALO153 White Desk hotline for your complaints and suggestions" = "Şikayetleriniz ve önerileriniz için ALO153 Beyaz Masa hattını aramak için tıklayın";
+"No Data" = "veri bulunamadı";
+"Close" = "Kapalı";
+"Open" = "Açık";
+"Details" = "Detaylar";
+"Directions" = "Yol Tarifi";
+"Target Location" = "Hedef Lokasyon";
+"Show on Map" = "Haritada Göster";
+"Traveling" = "Seyahat Halinde";
+"Find the nearest station for your needs during your journey." = "Yolculuğunuz esnasında ihtiyaçlarınız için en yakın istasyonu arayın.";
+"User Friendly" = "Kullanıcı Dostu";
+"Easily find the nearest station without requiring membership through a simple interface." = "Sade arayüz ile üyelik gerektirmeden en yakın istasyonu kolaylıkla bulun.";
+"Clean & Safe" = "Temiz ve Güvenilir";
+"The City Toilets are a service provided by the Istanbul Metropolitan Municipality." = "Şehir Tuvaletleri İstanbul Büyükşehir Belediyesi hizmetidir.";
+"Volunteer" = "Gönüllü";
+"This service is a voluntary organization and does not seek any profit. You can use it for free." = "Bu hizmet gönüllü bir oluşumdur herhangi bir kar amacı gütmemektedir. Ücretsiz bir şekilde faydalanabilirsiniz.";
+"Much More..." = "Daha fazlası için...";
+"Continue" = "Devam Et";

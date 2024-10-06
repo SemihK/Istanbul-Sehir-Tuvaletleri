@@ -11,6 +11,7 @@
           "value" : "light"
         }
       ],
+      "filename" : "Volunteer.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -21,6 +22,7 @@
           "value" : "dark"
         }
       ],
+      "filename" : "Volunteer-White.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -35,6 +37,7 @@
           "value" : "light"
         }
       ],
+      "filename" : "Volunteer 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
@@ -45,11 +48,11 @@
           "value" : "dark"
         }
       ],
+      "filename" : "Volunteer-White 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "semihkesgin.svg",
       "idiom" : "universal",
       "scale" : "3x"
     },
@@ -60,7 +63,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "semihkesgin 1.svg",
+      "filename" : "Volunteer 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     },
@@ -71,7 +74,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "semihkesgin-white.svg",
+      "filename" : "Volunteer-White 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

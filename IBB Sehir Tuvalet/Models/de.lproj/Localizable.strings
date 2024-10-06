@@ -1,0 +1,40 @@
+/*
+ Localizable.strings
+ Istanbul City Toilets
+
+ Created by Semih Kesgin on 22.03.2024.
+  
+*/
+"Kapalı" = "Geschlossen";
+"Açık" = "Offen";
+"Detaylar" = "Einzelheiten";
+"Yol Tarifi" = "Wegbeschreibung";
+"Hedef Lokasyon" = "Zielort";
+"Haritada Göster" = "Auf Karte anzeigen";
+"Seyahat Halinde" = "Unterwegs";
+"Yolculuğunuz esnasında ihtiyaçlarınız için en yakın istasyonu arayın." = "Finden Sie während Ihrer Reise die nächstgelegene Station für Ihre Bedürfnisse.";
+"Kullanıcı Dostu" = "Benutzerfreundlich";
+"Sade arayüz ile üyelik gerektirmeden en yakın istasyonu kolaylıkla bulun." = "Finden Sie die nächstgelegene Station einfach mit einer einfachen Oberfläche ohne Registrierung.";
+"Temiz ve Güvenilir" = "Sauber und zuverlässig";
+"Şehir Tuvaletleri İstanbul Büyükşehir Belediyesi hizmetidir." = "Die Stadttoiletten sind ein Service der Stadtverwaltung des Großraums Istanbul.";
+"Gönüllü" = "Freiwillig";
+"Bu hizmet gönüllü bir oluşumdur herhangi bir kar amacı gütmemektedir. Ücretsiz bir şekilde faydalanabilirsiniz." = "Dies ist eine freiwillige Organisation ohne Gewinnzweck. Sie können es kostenlos nutzen.";
+"Daha fazlası için..." = "Mehr...";
+"Devam Et" = "Weiter";
+"Hosgeldiniz" = "Willkommen in";
+"Beyaz Masa'yı aramak için görsele tıklayın." = "Klicken Sie auf das Bild, um die Weiße Hotline 153 anzurufen";
+"Geri Bildirim" = "Feedback";
+"Devam Et" = "Weiter";
+"Yardım" = "Hilfe";
+"Hakkında" = "Über";
+"Kullanmakta olduğunuz bu uygulama tamamen gönüllü olarak tarafımca geliştirilmiştir. Veriler ve istasyon durumları anlık olarak kontrol edilmemektedir. Lütfen herhangi bir aksaklık ve eksiklik durumunu Bize Ulaş kısmından bana yazınız. " = "Diese Anwendung, die Sie verwenden, wurde von mir vollständig freiwillig entwickelt. Daten und Stationsstatus werden nicht in Echtzeit überwacht. Bitte teilen Sie mir eventuelle Störungen oder Mängel über den Abschnitt „Kontakt“ mit.";
+"Yasal Uyarı" = "Rechtlicher Hinweis";
+"Bu uygulama yalnızca bilgilendirme amaçlıdır ve herhangi bir işletme sorumluluğu gözetmez. İstasyon bilgileri eksik veya operasyondan farklı olabilir. Kullanımı kendi sorumluluğunuzdadır." = "Diese App dient nur zu Informationszwecken und übernimmt keine Betriebsverantwortung für Unternehmen. Stationsinformationen können unvollständig oder vom tatsächlichen Betrieb abweichen. Sie verwenden es auf eigene Gefahr.";
+"Bize Ulaşın" = "Kontakt";
+"E-posta Gönder" = "E-Mail senden";
+"Üyelik Yok" = "Kostenlos";
+"Erkek" = "Mann";
+"Kadın" = "Frau";
+"Engelli" = "Behinderte";
+"Metro İstanbul istasyonları içerisinde Erkek ve Kadın tuvaletleri bulunmaktadır." = "In den Metrostationen in Istanbul gibt es Herren- und Damen-Toiletten.";
+"Yakınınızdaki istasyonları haritada görmek için tıklayınız." = "Klicken Sie hier, um die Stationen in Ihrer Nähe auf der Karte zu sehen.";

@@ -1,0 +1,24 @@
+{
+  "originHash" : "c59c77a4e2156f63f3434383150f8d8eb1114781a2bf623b0392697a1966a093",
+  "pins" : [
+    {
+      "identity" : "slideovercard?tab=readme-ov-file",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/joogps/SlideOverCard?tab=readme-ov-file",
+      "state" : {
+        "revision" : "7e80641c5e6294911c8050f9f2412a552a636072",
+        "version" : "3.0.0"
+      }
+    },
+    {
+      "identity" : "uionboarding",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lascic/UIOnboarding.git",
+      "state" : {
+        "revision" : "efd1e944c399de24c10d9f4947301e1c105dbb9b",
+        "version" : "2.0.3"
+      }
+    }
+  ],
+  "version" : 3
+}

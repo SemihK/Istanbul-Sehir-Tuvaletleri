@@ -1,9 +1,10 @@
 //
-//  Locations.swift
-//  IBB Mobil Tuvalet
+//  Location.swift
+//  Istanbul City Toilets
 //
-//  Created by Semih Kesgin on 2.06.2023.
+//  Created by Semih Kesgin on 21.03.2024.
 //
+
 import Foundation
 import MapKit
 
@@ -17,8 +18,6 @@ struct Location: Identifiable, Equatable {
     let cost: String
     let link: String
     
-    
-    
     // Identifiable section
     var id: String{
         // name = "Yenibosna"
@@ -30,8 +29,6 @@ struct Location: Identifiable, Equatable {
     static func == (lhs: Location, rhs: Location) -> Bool {
         lhs.id == rhs.id
     }
-    
-
 }
 
 struct Kartlar: Identifiable, Equatable {

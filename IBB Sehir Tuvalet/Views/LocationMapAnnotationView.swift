@@ -1,7 +1,5 @@
 //
 //  LocationMapAnnotationView.swift
-//  SwiftfulMapApp
-//
 //  Created by Semih Kesgin on 8.06.2023.
 //
 
@@ -39,7 +37,6 @@ struct LocationMapAnnotationView_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             Color.black.ignoresSafeArea()
-            
             LocationMapAnnotationView()
         }
     }

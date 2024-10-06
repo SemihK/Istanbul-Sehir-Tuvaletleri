@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "turkey-flag-round-circle-icon.svg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "turkey-flag-round-circle-icon 1.svg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "turkey-flag-round-circle-icon.svg",
+      "filename" : "turkey-flag-round-circle-icon 2.svg",
       "idiom" : "universal",
       "scale" : "3x"
     }

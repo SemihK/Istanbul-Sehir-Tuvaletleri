@@ -1,8 +1,8 @@
 //
 //  LocationManager.swift
-//  IBB Sehir Tuvalet
+//  Istanbul City Toilets
 //
-//  Created by Semih Kesgin on 7.01.2024.
+//  Created by Semih Kesgin on 21.03.2024.
 //
 
 import Foundation

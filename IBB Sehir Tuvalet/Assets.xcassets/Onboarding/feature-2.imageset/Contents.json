@@ -1,10 +1,12 @@
 {
   "images" : [
     {
+      "filename" : "pinch-easy-icon 2.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "pinch-easy-icon 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

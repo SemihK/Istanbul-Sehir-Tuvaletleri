@@ -1,66 +1,80 @@
 //
-//  LocationsView.swift
-//  IBB Mobil Tuvalet
+// LocationsView.swift
+// IBB Mobil Tuvalet
 //
-//  Created by Semih Kesgin on 2.06.2023.
-
+// Created by Semih Kesgin on 2.06.2023.
+//
 
 import SwiftUI
 import MapKit
+import CoreLocation
+import UserNotifications
+import StoreKit
 
 struct LocationsView: View {
-    @AppStorage("hasCompletedOnboarding") private var hasCompletedOnboarding = false // UserDefaults anahtarını kontrol etmek için
-
+    @State private var position: MapCameraPosition = .userLocation(followsHeading: true, fallback: .automatic)
+    @State private var locationManager = CLLocationManager()
+    @State private var showingOnboarding = false
+    @Environment(\.requestReview) var requestReview
     @EnvironmentObject private var vm: LocationsViewModel
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    @State private var isFirstLaunch = !UserDefaults.standard.bool(forKey: "hasLaunchedBefore")
+    @State private var userTrackingMode: MapUserTrackingMode = .follow
     
     let maxWidthForIpad: CGFloat = 700
+    
     var body: some View {
         ZStack {
             mapLayer
                 .ignoresSafeArea()
-                .fullScreenCover(isPresented: $hasCompletedOnboarding) {
+                .fullScreenCover(isPresented: $showingOnboarding) {
                     OnboardingView()
                         .edgesIgnoringSafeArea(.all)
                 }
+                .mapControls {
+                    MapUserLocationButton()
+                    MapCompass()
+                }
                 .preferredColorScheme(.none)
+                .onAppear {
+                    if isFirstLaunch {
+                        showingOnboarding = true
+                        UserDefaults.standard.set(true, forKey: "hasLaunchedBefore")
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                            requestReview()
+                        }
+                    }
+                    requestLocationAuthorization()
+                }
             VStack(spacing: 0) {
                 Spacer()
                 locationsPreviewStack
-                
-                 
             }
         }
         .sheet(item: $vm.sheetLocation, onDismiss: nil) { location in
             LocationDetailView(location: location)
+                .mapStyle(.standard(elevation: .flat, showsTraffic: false))
         }
-        
     }
-}
-
-struct LocationsView_Previews: PreviewProvider {
-    static var previews: some View {
-        LocationsView()
-            .environmentObject(LocationsViewModel())
+    
+    private func requestLocationAuthorization() {
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.startUpdatingLocation()
     }
-}
-
-extension LocationsView {
     
     private var mapLayer: some View {
         Map(coordinateRegion: $vm.mapRegion,
-            annotationItems: vm.locations,
-            annotationContent: { location in
+            showsUserLocation: true,
+            userTrackingMode: $userTrackingMode,
+            annotationItems: vm.locations) { location in
             MapAnnotation(coordinate: location.coordinates) {
                 LocationMapAnnotationView()
-                    .scaleEffect(vm.mapLocation == location ? 1 : 0.7)
-                    .shadow(radius: 10)
+                    .scaleEffect(vm.mapLocation == location ? 1.2 : 0.8)
                     .onTapGesture {
                         vm.showNextLocation(location: location)
                     }
             }
-            
-        })
+        }
     }
     
     private var locationsPreviewStack: some View {
@@ -80,41 +94,10 @@ extension LocationsView {
         }
     }
     
-    
-    
-    
-    
-    
-    // MARK temporary closed
-    
-    /* private var header: some View {
-     VStack {
-     Button(action: vm.toggleLocationsList) {
-     Text(vm.mapLocation.name)
-     .font(.title2)
-     .fontWeight(.black)
-     .foregroundColor(.primary)
-     .frame(height: 55)
-     .frame(maxWidth: .infinity)
-     .animation(.none, value: vm.mapLocation)
-     .overlay(alignment: .leading) {
-     Image(systemName: "arrow.down")
-     .font(.headline)
-     .foregroundColor(.primary)
-     .padding()
-     .rotationEffect(Angle(degrees: vm.showLocationsList ? 180 : 0))
-     }
-     }
-     
-     if vm.showLocationsList {
-     LocationsListView()
-     }
-     }
-     .background(.thickMaterial)
-     .cornerRadius(10)
-     .shadow(color: Color.black.opacity(0.3), radius: 20, x: 0, y: 15)
-     }
-     */
-    
-    
+    struct LocationsView_Previews: PreviewProvider {
+        static var previews: some View {
+            LocationsView()
+                .environmentObject(LocationsViewModel())
+        }
+    }
 }

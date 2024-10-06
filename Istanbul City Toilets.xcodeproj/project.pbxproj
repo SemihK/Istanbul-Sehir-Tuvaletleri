@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		601594D12C2DE53D00A5332A /* UserNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601594D02C2DE53D00A5332A /* UserNotificationService.swift */; };
+		602145AA2BB2D23200EA2CC8 /* ContactPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602145A92BB2D23100EA2CC8 /* ContactPageView.swift */; };
+		60346CAF2BABA2080097AE7B /* Istanbul_City_ToiletsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60346CAE2BABA2080097AE7B /* Istanbul_City_ToiletsApp.swift */; };
+		60346CB12BABA2080097AE7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60346CB02BABA2080097AE7B /* ContentView.swift */; };
+		60346CB32BABA20A0097AE7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60346CB22BABA20A0097AE7B /* Assets.xcassets */; };
+		60346CB62BABA20A0097AE7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60346CB52BABA20A0097AE7B /* Preview Assets.xcassets */; };
+		60346CC12BABA2590097AE7B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60346CC02BABA2590097AE7B /* Location.swift */; };
+		60346CC32BABA2760097AE7B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60346CC22BABA2760097AE7B /* LocationManager.swift */; };
+		60346CC52BABA2930097AE7B /* UIOnboardingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60346CC42BABA2930097AE7B /* UIOnboardingHelper.swift */; };
+		60346CC72BABA2B70097AE7B /* LocationViewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60346CC62BABA2B70097AE7B /* LocationViewsModel.swift */; };
+		60346CC92BABA2CB0097AE7B /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60346CC82BABA2CB0097AE7B /* LocationsView.swift */; };
+		60346CCB2BABA2DA0097AE7B /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60346CCA2BABA2DA0097AE7B /* LocationsListView.swift */; };
+		60346CCE2BABA3010097AE7B /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60346CCD2BABA3010097AE7B /* LocationMapAnnotationView.swift */; };
+		60346CD02BABA3230097AE7B /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60346CCF2BABA3230097AE7B /* LocationDetailView.swift */; };
+		60346CD22BABA3380097AE7B /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60346CD12BABA3380097AE7B /* LocationPreviewView.swift */; };
+		60346CD42BABA3490097AE7B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60346CD32BABA3490097AE7B /* OnboardingView.swift */; };
+		60346CD62BABA3650097AE7B /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60346CD52BABA3650097AE7B /* LocationsDataService.swift */; };
+		60346CD92BABA40C0097AE7B /* UIOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = 60346CD82BABA40C0097AE7B /* UIOnboarding */; };
+		60346CDF2BABD91C0097AE7B /* LocationMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60346CDE2BABD91C0097AE7B /* LocationMapViewModel.swift */; };
+		60970DD82BACECAC0055D5D5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60970DD62BACECAC0055D5D5 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		602493AF2BC251F800459054 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609927782BED2F790091C761 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6000F79B2BCAAEAB006B9274 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6000F79C2BCAAEE8006B9274 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6000F79D2BCAAF1E006B9274 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6000F79E2BCAAF4A006B9274 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6000F79F2BCAAF80006B9274 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		601594CF2C2DE49C00A5332A /* Istanbul City Toilets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Istanbul City Toilets.entitlements"; sourceTree = "<group>"; };
+		601594D02C2DE53D00A5332A /* UserNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationService.swift; sourceTree = "<group>"; };
+		602145A92BB2D23100EA2CC8 /* ContactPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPageView.swift; sourceTree = "<group>"; };
+		60346CAB2BABA2080097AE7B /* Istanbul City Toilets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Istanbul City Toilets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60346CAE2BABA2080097AE7B /* Istanbul_City_ToiletsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Istanbul_City_ToiletsApp.swift; sourceTree = "<group>"; };
+		60346CB02BABA2080097AE7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60346CB22BABA20A0097AE7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60346CB52BABA20A0097AE7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60346CC02BABA2590097AE7B /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		60346CC22BABA2760097AE7B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		60346CC42BABA2930097AE7B /* UIOnboardingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIOnboardingHelper.swift; sourceTree = "<group>"; };
+		60346CC62BABA2B70097AE7B /* LocationViewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewsModel.swift; sourceTree = "<group>"; };
+		60346CC82BABA2CB0097AE7B /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		60346CCA2BABA2DA0097AE7B /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		60346CCD2BABA3010097AE7B /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		60346CCF2BABA3230097AE7B /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		60346CD12BABA3380097AE7B /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		60346CD32BABA3490097AE7B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		60346CD52BABA3650097AE7B /* LocationsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		60346CDA2BABA88F0097AE7B /* Istanbul-City-Toilets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Istanbul-City-Toilets-Info.plist"; sourceTree = SOURCE_ROOT; };
+		60346CDB2BABB1610097AE7B /* gpxgenerator_path.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = gpxgenerator_path.gpx; sourceTree = "<group>"; };
+		60346CDE2BABD91C0097AE7B /* LocationMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapViewModel.swift; sourceTree = "<group>"; };
+		60970DD92BACECC10055D5D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; wrapsLines = 0; };
+		609927632BED2F790091C761 /* İstanbul Şehir TuvaletleriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "İstanbul Şehir TuvaletleriTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6099276D2BED2F790091C761 /* İstanbul Şehir TuvaletleriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "İstanbul Şehir TuvaletleriUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F910822BD04DDC00DBF33E /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60346CA82BABA2080097AE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60346CD92BABA40C0097AE7B /* UIOnboarding in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609927602BED2F790091C761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6099276A2BED2F790091C761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60346CA22BABA2080097AE7B = {
+			isa = PBXGroup;
+			children = (
+				60346CAD2BABA2080097AE7B /* Istanbul City Toilets */,
+				60346CAC2BABA2080097AE7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60346CAC2BABA2080097AE7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60346CAB2BABA2080097AE7B /* Istanbul City Toilets.app */,
+				609927632BED2F790091C761 /* İstanbul Şehir TuvaletleriTests.xctest */,
+				6099276D2BED2F790091C761 /* İstanbul Şehir TuvaletleriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60346CAD2BABA2080097AE7B /* Istanbul City Toilets */ = {
+			isa = PBXGroup;
+			children = (
+				601594CF2C2DE49C00A5332A /* Istanbul City Toilets.entitlements */,
+				60346CDA2BABA88F0097AE7B /* Istanbul-City-Toilets-Info.plist */,
+				60346CBF2BABA2390097AE7B /* Data Services */,
+				60346CBE2BABA2350097AE7B /* Views */,
+				60346CBD2BABA22D0097AE7B /* ViewModels */,
+				60346CBC2BABA2270097AE7B /* Models */,
+				60346CAE2BABA2080097AE7B /* Istanbul_City_ToiletsApp.swift */,
+				60346CB02BABA2080097AE7B /* ContentView.swift */,
+				60346CB22BABA20A0097AE7B /* Assets.xcassets */,
+				60346CB42BABA20A0097AE7B /* Preview Content */,
+			);
+			path = "Istanbul City Toilets";
+			sourceTree = "<group>";
+		};
+		60346CB42BABA20A0097AE7B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				60346CB52BABA20A0097AE7B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		60346CBC2BABA2270097AE7B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				60346CC02BABA2590097AE7B /* Location.swift */,
+				60346CC22BABA2760097AE7B /* LocationManager.swift */,
+				60346CC42BABA2930097AE7B /* UIOnboardingHelper.swift */,
+				60970DD62BACECAC0055D5D5 /* Localizable.strings */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		60346CBD2BABA22D0097AE7B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				60346CC62BABA2B70097AE7B /* LocationViewsModel.swift */,
+				60346CDE2BABD91C0097AE7B /* LocationMapViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		60346CBE2BABA2350097AE7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				60346CC82BABA2CB0097AE7B /* LocationsView.swift */,
+				60346CCA2BABA2DA0097AE7B /* LocationsListView.swift */,
+				60346CCD2BABA3010097AE7B /* LocationMapAnnotationView.swift */,
+				60346CCF2BABA3230097AE7B /* LocationDetailView.swift */,
+				60346CD12BABA3380097AE7B /* LocationPreviewView.swift */,
+				60346CD32BABA3490097AE7B /* OnboardingView.swift */,
+				602145A92BB2D23100EA2CC8 /* ContactPageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		60346CBF2BABA2390097AE7B /* Data Services */ = {
+			isa = PBXGroup;
+			children = (
+				60346CDB2BABB1610097AE7B /* gpxgenerator_path.gpx */,
+				60346CD52BABA3650097AE7B /* LocationsDataService.swift */,
+				601594D02C2DE53D00A5332A /* UserNotificationService.swift */,
+			);
+			path = "Data Services";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60346CAA2BABA2080097AE7B /* Istanbul City Toilets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60346CB92BABA20A0097AE7B /* Build configuration list for PBXNativeTarget "Istanbul City Toilets" */;
+			buildPhases = (
+				60346CA72BABA2080097AE7B /* Sources */,
+				60346CA82BABA2080097AE7B /* Frameworks */,
+				60346CA92BABA2080097AE7B /* Resources */,
+				602493AF2BC251F800459054 /* Embed Watch Content */,
+				609927782BED2F790091C761 /* Embed App Clips */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Istanbul City Toilets";
+			packageProductDependencies = (
+				60346CD82BABA40C0097AE7B /* UIOnboarding */,
+			);
+			productName = "Istanbul City Toilets";
+			productReference = 60346CAB2BABA2080097AE7B /* Istanbul City Toilets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		609927622BED2F790091C761 /* İstanbul Şehir TuvaletleriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 609927802BED2F790091C761 /* Build configuration list for PBXNativeTarget "İstanbul Şehir TuvaletleriTests" */;
+			buildPhases = (
+				6099275F2BED2F790091C761 /* Sources */,
+				609927602BED2F790091C761 /* Frameworks */,
+				609927612BED2F790091C761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "İstanbul Şehir TuvaletleriTests";
+			productName = "İstanbul Şehir TuvaletleriTests";
+			productReference = 609927632BED2F790091C761 /* İstanbul Şehir TuvaletleriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6099276C2BED2F790091C761 /* İstanbul Şehir TuvaletleriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 609927812BED2F790091C761 /* Build configuration list for PBXNativeTarget "İstanbul Şehir TuvaletleriUITests" */;
+			buildPhases = (
+				609927692BED2F790091C761 /* Sources */,
+				6099276A2BED2F790091C761 /* Frameworks */,
+				6099276B2BED2F790091C761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "İstanbul Şehir TuvaletleriUITests";
+			productName = "İstanbul Şehir TuvaletleriUITests";
+			productReference = 6099276D2BED2F790091C761 /* İstanbul Şehir TuvaletleriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60346CA32BABA2080097AE7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					60346CAA2BABA2080097AE7B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					609927622BED2F790091C761 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 609927512BED2F780091C761;
+					};
+					6099276C2BED2F790091C761 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 609927512BED2F780091C761;
+					};
+				};
+			};
+			buildConfigurationList = 60346CA62BABA2080097AE7B /* Build configuration list for PBXProject "Istanbul City Toilets" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = tr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				tr,
+				ru,
+				de,
+				uk,
+				"zh-Hans",
+				it,
+			);
+			mainGroup = 60346CA22BABA2080097AE7B;
+			packageReferences = (
+				60346CD72BABA40C0097AE7B /* XCRemoteSwiftPackageReference "UIOnboarding" */,
+				60DB505B2BB2610E0023D72C /* XCRemoteSwiftPackageReference "SlideOverCard" */,
+			);
+			productRefGroup = 60346CAC2BABA2080097AE7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60346CAA2BABA2080097AE7B /* Istanbul City Toilets */,
+				609927622BED2F790091C761 /* İstanbul Şehir TuvaletleriTests */,
+				6099276C2BED2F790091C761 /* İstanbul Şehir TuvaletleriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60346CA92BABA2080097AE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60346CB62BABA20A0097AE7B /* Preview Assets.xcassets in Resources */,
+				60970DD82BACECAC0055D5D5 /* Localizable.strings in Resources */,
+				60346CB32BABA20A0097AE7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609927612BED2F790091C761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6099276B2BED2F790091C761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60346CA72BABA2080097AE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60346CDF2BABD91C0097AE7B /* LocationMapViewModel.swift in Sources */,
+				60346CC32BABA2760097AE7B /* LocationManager.swift in Sources */,
+				60346CCE2BABA3010097AE7B /* LocationMapAnnotationView.swift in Sources */,
+				60346CC72BABA2B70097AE7B /* LocationViewsModel.swift in Sources */,
+				602145AA2BB2D23200EA2CC8 /* ContactPageView.swift in Sources */,
+				60346CB12BABA2080097AE7B /* ContentView.swift in Sources */,
+				60346CC52BABA2930097AE7B /* UIOnboardingHelper.swift in Sources */,
+				60346CC12BABA2590097AE7B /* Location.swift in Sources */,
+				60346CCB2BABA2DA0097AE7B /* LocationsListView.swift in Sources */,
+				60346CD62BABA3650097AE7B /* LocationsDataService.swift in Sources */,
+				60346CAF2BABA2080097AE7B /* Istanbul_City_ToiletsApp.swift in Sources */,
+				60346CD02BABA3230097AE7B /* LocationDetailView.swift in Sources */,
+				60346CD42BABA3490097AE7B /* OnboardingView.swift in Sources */,
+				60346CD22BABA3380097AE7B /* LocationPreviewView.swift in Sources */,
+				60346CC92BABA2CB0097AE7B /* LocationsView.swift in Sources */,
+				601594D12C2DE53D00A5332A /* UserNotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6099275F2BED2F790091C761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609927692BED2F790091C761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60970DD62BACECAC0055D5D5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60970DD92BACECC10055D5D5 /* en */,
+				6000F79B2BCAAEAB006B9274 /* ru */,
+				6000F79C2BCAAEE8006B9274 /* de */,
+				6000F79D2BCAAF1E006B9274 /* uk */,
+				6000F79E2BCAAF4A006B9274 /* zh-Hans */,
+				6000F79F2BCAAF80006B9274 /* it */,
+				60F910822BD04DDC00DBF33E /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60346CB72BABA20A0097AE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60346CB82BABA20A0097AE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60346CBA2BABA20A0097AE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Istanbul City Toilets/Istanbul City Toilets.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Istanbul City Toilets/Preview Content\"";
+				DEVELOPMENT_TEAM = LKU9ZN4MN9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Istanbul-City-Toilets-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sehir Tuvaletleri";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show nearby WC station";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "semihkesgin.Istanbul-City-Toilets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60346CBB2BABA20A0097AE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Istanbul City Toilets/Istanbul City Toilets.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Istanbul City Toilets/Preview Content\"";
+				DEVELOPMENT_TEAM = LKU9ZN4MN9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Istanbul-City-Toilets-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sehir Tuvaletleri";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show nearby WC station";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "semihkesgin.Istanbul-City-Toilets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6099277B2BED2F790091C761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LKU9ZN4MN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "semihkesgin.Istanbul-City-Toilets.I-stanbul-S-ehir-TuvaletleriTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/İstanbul Şehir Tuvaletleri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/İstanbul Şehir Tuvaletleri";
+			};
+			name = Debug;
+		};
+		6099277C2BED2F790091C761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LKU9ZN4MN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "semihkesgin.Istanbul-City-Toilets.I-stanbul-S-ehir-TuvaletleriTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/İstanbul Şehir Tuvaletleri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/İstanbul Şehir Tuvaletleri";
+			};
+			name = Release;
+		};
+		6099277D2BED2F790091C761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LKU9ZN4MN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "semihkesgin.Istanbul-City-Toilets.I-stanbul-S-ehir-TuvaletleriUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "İstanbul Şehir Tuvaletleri";
+			};
+			name = Debug;
+		};
+		6099277E2BED2F790091C761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LKU9ZN4MN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "semihkesgin.Istanbul-City-Toilets.I-stanbul-S-ehir-TuvaletleriUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "İstanbul Şehir Tuvaletleri";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60346CA62BABA2080097AE7B /* Build configuration list for PBXProject "Istanbul City Toilets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60346CB72BABA20A0097AE7B /* Debug */,
+				60346CB82BABA20A0097AE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60346CB92BABA20A0097AE7B /* Build configuration list for PBXNativeTarget "Istanbul City Toilets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60346CBA2BABA20A0097AE7B /* Debug */,
+				60346CBB2BABA20A0097AE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		609927802BED2F790091C761 /* Build configuration list for PBXNativeTarget "İstanbul Şehir TuvaletleriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6099277B2BED2F790091C761 /* Debug */,
+				6099277C2BED2F790091C761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		609927812BED2F790091C761 /* Build configuration list for PBXNativeTarget "İstanbul Şehir TuvaletleriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6099277D2BED2F790091C761 /* Debug */,
+				6099277E2BED2F790091C761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		60346CD72BABA40C0097AE7B /* XCRemoteSwiftPackageReference "UIOnboarding" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lascic/UIOnboarding.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+		60DB505B2BB2610E0023D72C /* XCRemoteSwiftPackageReference "SlideOverCard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joogps/SlideOverCard?tab=readme-ov-file";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		60346CD82BABA40C0097AE7B /* UIOnboarding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60346CD72BABA40C0097AE7B /* XCRemoteSwiftPackageReference "UIOnboarding" */;
+			productName = UIOnboarding;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 60346CA32BABA2080097AE7B /* Project object */;
+}

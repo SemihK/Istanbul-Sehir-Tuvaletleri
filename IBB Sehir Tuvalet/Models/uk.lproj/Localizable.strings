@@ -1,0 +1,40 @@
+/*
+ Localizable.strings
+ Istanbul City Toilets
+
+ Created by Semih Kesgin on 22.03.2024.
+  
+*/
+"Kapalı" = "Закрито";
+"Açık" = "Відкрито";
+"Detaylar" = "Деталі";
+"Yol Tarifi" = "Маршрут";
+"Hedef Lokasyon" = "Точка призначення";
+"Haritada Göster" = "Показати на карті";
+"Seyahat Halinde" = "У дорозі";
+"Yolculuğunuz esnasında ihtiyaçlarınız için en yakın istasyonu arayın." = "Знайдіть найближчу станцію ​​для ваших потреб під час подорожі.";
+"Kullanıcı Dostu" = "Зручний інтерфейс";
+"Sade arayüz ile üyelik gerektirmeden en yakın istasyonu kolaylıkla bulun." = "Легко знайдіть найближчу станцію ​​за допомогою простого інтерфейсу без реєстрації.";
+"Temiz ve Güvenilir" = "Чистий та надійний";
+"Şehir Tuvaletleri İstanbul Büyükşehir Belediyesi hizmetidir." = "Міські туалети - це послуга, що надається Муніципалітетом Великого Стамбула.";
+"Gönüllü" = "Волонтерський";
+"Bu hizmet gönüllü bir oluşumdur herhangi bir kar amacı gütmemektedir. Ücretsiz bir şekilde faydalanabilirsiniz." = "Це добровільна організація, яка не переслідує жодних комерційних цілей. Ви можете користуватися ним безкоштовно.";
+"Daha fazlası için..." = "Детальніше...";
+"Devam Et" = "Продовжити";
+"Hosgeldiniz" = "Ласкаво просимо до";
+"Beyaz Masa'yı aramak için görsele tıklayın." = "Натисніть на зображення, щоб зателефонувати на Гарячу лінію Білого столу 153";
+"Geri Bildirim" = "Відгук";
+"Devam Et" = "Продовжити";
+"Yardım" = "Допомога";
+"Hakkında" = "Про додаток";
+"Kullanmakta olduğunuz bu uygulama tamamen gönüllü olarak tarafımca geliştirilmiştir. Veriler ve istasyon durumları anlık olarak kontrol edilmemektedir. Lütfen herhangi bir aksaklık ve eksiklik durumunu Bize Ulaş kısmından bana yazınız. " = "Цей додаток, який ви використовуєте, був розроблений мною абсолютно безкоштовно. Дані та стан станцій не перевіряються в режимі реального часу. Будь ласка, повідомте мені про будь-які збої або недоліки в розділі «Зв’яжіться з нами».";
+"Yasal Uyarı" = "Юридичне попередження";
+"Bu uygulama yalnızca bilgilendirme amaçlıdır ve herhangi bir işletme sorumluluğu gözetmez. İstasyon bilgileri eksik veya operasyondan farklı olabilir. Kullanımı kendi sorumluluğunuzdadır." = "Ця програма призначена лише для інформаційних цілей і не несе жодної оперативної відповідальності за підприємства. Інформація про станції може бути неповною або відрізнятися від фактичної роботи. Ви використовуєте його на власний страх і ризик.";
+"Bize Ulaşın" = "Зв’яжіться з нами";
+"E-posta Gönder" = "Відправити електронний лист";
+"Üyelik Yok" = "Безкоштовно";
+"Erkek" = "Чоловік";
+"Kadın" = "Жінка";
+"Engelli" = "Обмежений";
+"Metro İstanbul istasyonları içerisinde Erkek ve Kadın tuvaletleri bulunmaktadır." = "На станціях метро в Стамбулі є чоловічі та жіночі туалети.";
+"Yakınınızdaki istasyonları haritada görmek için tıklayınız." = "Нажмите здесь, чтобы увидеть станции рядом с вами на карте.";
